@@ -1,0 +1,19 @@
+{
+  "name": "ferreteria-api",
+  "version": "1.0.0",
+  "description": "Instalaciones",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Rodolfo Parada",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "start": "^5.1.0"
+  }
+}

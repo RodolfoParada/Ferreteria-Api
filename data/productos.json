@@ -1,0 +1,143 @@
+{
+  "ALDABA_LIOI": [
+    {
+      "id": 1,
+      "nombre": "Aldaba 11/2",
+      "descripcion": "1.1/2''",
+      "codigo":"ALD112J",
+      "precio": 300,
+      "stock": 20000,
+      "imagen": "/imagenes/1.Aldaba_l.webp"
+    },
+    {
+      "id": 2,
+      "nombre": "Aldaba 2",
+      "descripcion": "2''",
+      "codigo":"ALD2J",
+      "precio": 400,
+      "stock": 350000,
+      "imagen": "/imagenes/1.Aldaba_l.webp"
+    },
+    {
+      "id": 3,
+      "nombre": "Aldaba 2 1/2",
+      "descripcion": "2.1/2''",
+      "codigo":"ALD212J",
+      "precio": 500,
+      "stock": 100000,
+      "imagen": "/imagenes/1.Aldaba_l.webp"
+    }
+  ],
+  "TOPE_PUERTA_CILINDRICO": [
+    {
+      "id": 1,
+      "nombre": "Tope Puerta - B",
+      "descripcion": "protege puertas y paredes",
+      "codigo":"TP-B",
+      "color": "Blanco",
+      "precio": 100,
+      "stock": 700000,
+      "imagen": "/imagenes/2.Tope_puerta_blanco.webp"
+    },
+    {
+      "id": 2,
+      "nombre": "Tope Puerta - N",
+      "descripcion": "protege puertas y paredes",
+      "color": "Negro",
+      "codigo":"TP-N",
+      "precio": 100,
+      "stock": 50000,
+      "imagen": "/imagenes/2.Tope_puerta_negro.webp"
+    },
+    {
+      "id": 3,
+      "nombre": "Tope Puerta - C",
+      "descripcion": "protege puertas y paredes",
+      "codigo":"TP-C",
+      "color": "Café",
+      "precio": 100,
+      "stock": 21500,
+      "imagen": "/imagenes/2.Tope_de_puerta_cafe.webp"
+    }
+  ],
+   "RETEN_RODILLO":[
+    {
+      "id": 1,
+      "nombre": "Retén Rodillo",
+      "descripcion": "antiguo",
+      "codigo":"RETRAOU",
+      "precio": 750,
+      "stock": 90000,
+      "imagen": "/imagenes/3.Reten_rodillo.webp"
+    }
+  ],
+  "RETEN_MAGNETICO":[
+    {
+      "id": 1,
+      "nombre": "Retén Magnetico - B",
+      "descripcion": "Blanco",
+      "codigo":"RETB",
+      "precio": 300,
+      "stock": 20000,
+      "imagen": "/imagenes/4.Reten_magnetico_blanco.webp"
+    },
+    {
+      "id": 2,
+      "nombre": "Retén Magnetico - C",
+      "descripcion": "Café",
+      "codigo":"RETC",
+      "precio": 400,
+      "stock": 350000,
+      "imagen": "/imagenes/4.Reten_magnetico_cafe.webp"
+    }
+  ],
+  "VISOR DE PUERTA":[
+    {
+      "id": 1,
+      "nombre": "Ojo de pez",
+      "descripcion":"visor de puerta",
+      "codigo":"VISPEZ",
+      "precio": 500,
+      "stock": 190000,
+      "imagen": "/imagenes/Ojo_de_pez.webp"
+    }
+  ],
+  "ALICATE UNIVERSAL": [
+    {
+      "id": 1,
+      "nombre": "Alicate 6''",
+      "descripcion": "6''(ALU6D15-ALU206)",
+      "codigo":"ALIU6U",
+      "precio": 1000,
+      "stock": 1000,
+      "imagen": "/imagenes/6.Alicate_universal.webp"
+    },
+    {
+      "id": 2,
+      "nombre": "Alicate 7''",
+      "descripcion": "7''(ALU207)",
+      "codigo":"ALIU7U",
+      "precio": 1000,
+      "stock": 1000,
+      "imagen": "/imagenes/7.Alicate_corte.webp"
+    },
+    {
+      "id": 3,
+      "nombre": "Alicate 8''",
+      "descripcion": "8''(ALU8D15-ALU208)",
+      "codigo":"ALIU8U",
+      "precio": 1000,
+      "stock": 1000,
+      "imagen": "/imagenes/8.Alicate_punta.webp"
+    },
+     {
+      "id": 4,
+      "nombre": "Pelacable",
+      "descripcion": "6.5 UYUS 0.6-26MM (PEL265)",
+      "codigo":"PEL65U",
+      "precio": 320,
+      "stock": 100000,
+      "imagen": "/imagenes/9.Pelacable.webp"
+    }
+  ]
+}
