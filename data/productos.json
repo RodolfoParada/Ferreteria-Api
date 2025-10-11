@@ -255,7 +255,7 @@
   ]
  },
  "agricola": {
-  "Horqueta_Pasto": [
+  "HORQUETA_PASTO": [
     {
       "id": 1,
       "nombre": "Horqueta Pasto",
@@ -319,7 +319,7 @@
       "imagen": "/imagenes/22.Azadon_sin_mango.webp"
     },
     {
-      "id": 1,
+      "id": 2,
       "nombre": "Azadon_2",
       "descripcion": "3 LB (AZD03Y)",
       "codigo":"AZAD3",
@@ -328,9 +328,106 @@
       "imagen": "/imagenes/23.Azadon_con_mango.webp"
     }      
   ]
- }
+ },
 
-
-
+  "auto": {
+  "ACERO_LIQUIDO_REX": [
+    {
+      "id": 1,
+      "nombre": "Acero Líquido Rex",
+      "descripcion": "28grs+28gr",
+      "codigo":"PTPA09",
+      "precio": 2000,
+      "stock": 7000,
+      "imagen": "/imagenes/24.Acero_liquido_rex.webp"
+    }
+  ],
+   "GRASA_CONSISTENTE":[
+     {
+      "id": 1,
+      "nombre": "Grasa Consistente",
+      "descripcion": "POTE 250 GRS",
+      "codigo":"PTCONSIS",
+      "precio": 9000,
+      "stock": 7900,
+      "imagen": "/imagenes/25.Grasa_consistente.webp"
+    }
+  ],
+   "BARRA_SILICONA":[
+     {
+      "id": 1,
+      "nombre": "Barra Silicona 1",
+      "descripcion": "5/16X12",
+      "codigo":"PASI39",
+      "precio": 7500,
+      "stock": 5000,
+      "imagen": "/imagenes/26.Barra_silicona_1.webp"
+    },
+    {
+      "id": 2,
+      "nombre": "Barra Silicona 2",
+      "descripcion": "5/16X12",
+      "codigo":"SXRT",
+      "precio": 6500,
+      "stock": 5000,
+      "imagen": "/imagenes/27.Barra_silicona_2.webp"
+    }
+  ], 
+  "INFLA_Y_SELLA":[
+     {
+      "id": 1,
+      "nombre": "Infla y Sella",
+      "descripcion": "450 ml",
+      "codigo":"ISELLA450",
+      "precio": 8000,
+      "stock": 1200,
+      "imagen": "/imagenes/28.Infla_y_sella.webp"
+    }
+  ],
+  "lIMPIA_CONTACTO":[
+     {
+      "id": 1,
+      "nombre": "Limpia Contacto",
+      "descripcion": "300 ml",
+      "codigo":"LIMCON300",
+      "precio": 2000,
+      "stock": 1000,
+      "imagen": "/imagenes/29.Limpia_contacto.webp"
+    }
+  ],
+   "LUBRICANTE":[
+     {
+      "id": 1,
+      "nombre": "Lubricante",
+      "descripcion": "155 Gl",
+      "codigo":"WD-40 Multiuso",
+      "precio": 3000,
+      "stock": 2000,
+      "imagen": "/imagenes/30.Lubricante.webp"
+    }
+  ],
+  "RENOVADOR_NEUMATICO":[
+     {
+      "id": 1,
+      "nombre": "Renovador Neumático",
+      "descripcion": "SAPOLIO",
+      "codigo":"RENO77",
+      "precio": 6000,
+      "stock": 500,
+      "imagen": "/imagenes/31.Renovador_neumatico.webp"
+    }
+  ],
+  "SILICONA_SPRAY":[
+     {
+      "id": 1,
+      "nombre": "Silicona Spray",
+      "descripcion": "Limpiador y protector",
+      "codigo":"LimSprayIL",
+      "precio": 4000,
+      "stock": 500,
+      "imagen": "/imagenes/32.Silicona_spray.webp"
+    }
+  ]
+}
 
 }  

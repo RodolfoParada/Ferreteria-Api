@@ -10,3 +10,5 @@ Instalaciones
 - npm run serve
 
 para ejecutar un archivo .js debes usar node + nombre de archivo
+
+http://localhost:3000/productos
