@@ -1,4 +1,5 @@
 {
+  "aldaperc": {
   "ALDABA_LIOI": [
     {
       "id": 1,
@@ -91,7 +92,7 @@
       "imagen": "/imagenes/4.Reten_magnetico_cafe.webp"
     }
   ],
-  "VISOR DE PUERTA":[
+  "VISOR_DE_PUERTA":[
     {
       "id": 1,
       "nombre": "Ojo de pez",
@@ -101,8 +102,10 @@
       "stock": 190000,
       "imagen": "/imagenes/Ojo_de_pez.webp"
     }
-  ],
-  "ALICATE UNIVERSAL": [
+  ]
+},
+  "alicates": {
+  "ALICATE_UNIVERSAL": [
     {
       "id": 1,
       "nombre": "Alicate 6''",
@@ -119,7 +122,7 @@
       "codigo":"ALIU7U",
       "precio": 1000,
       "stock": 1000,
-      "imagen": "/imagenes/7.Alicate_corte.webp"
+      "imagen": "/imagenes/6.Alicate_universal.webp"
     },
     {
       "id": 3,
@@ -128,16 +131,206 @@
       "codigo":"ALIU8U",
       "precio": 1000,
       "stock": 1000,
-      "imagen": "/imagenes/8.Alicate_punta.webp"
-    },
+      "imagen": "/imagenes/6.Alicate_universal.webp"
+    }
+  ],
+   "ALICATE_CORTE":[
      {
-      "id": 4,
+      "id": 1,
+      "nombre": "Alicate Corte",
+      "descripcion": "(ALC6D15) 6'' UYUS (ALC206",
+      "codigo":"PEL65U",
+      "precio": 1200,
+      "stock": 100000,
+      "imagen": "/imagenes/7.Alicante_corte.webp"
+    }
+  ],
+   "ALICATE_PUNTA":[
+     {
+      "id": 1,
+      "nombre": "Alicate Punta",
+      "descripcion": "ALIP6U6 UYUS (ALP6D15-ALP206)",
+      "codigo":"PEL65U",
+      "precio": 1200,
+      "stock": 100000,
+      "imagen": "/imagenes/8.Alicate_punta.webp"
+    }
+  ],
+   "PELACABLE":[
+     {
+      "id": 1,
       "nombre": "Pelacable",
       "descripcion": "6.5 UYUS 0.6-26MM (PEL265)",
       "codigo":"PEL65U",
-      "precio": 320,
+      "precio": 1800,
       "stock": 100000,
-      "imagen": "/imagenes/9.Pelacable.webp"
+      "imagen": "/imagenes/9.Alicate_pelacable.webp"
+    }
+  ],
+   "ALICATE_CORTANTE":[
+     {
+      "id": 1,
+      "nombre": "Alicate Cortante",
+      "descripcion": "(ALC345P)4.5'' UYUS",
+      "codigo":"ALIT4P",
+      "precio": 950,
+      "stock": 500,
+      "imagen": "/imagenes/10.Alicate_cortante.webp"
+    }
+  ],
+   "ALICATE_DE_PUNTA":[
+     {
+      "id": 1,
+      "nombre": "Alicate Punta",
+      "descripcion": "(ALP345P)4.5 UYUS",
+      "codigo":"ALIP4P",
+      "precio": 1050,
+      "stock": 500,
+      "imagen": "/imagenes/11.Alicate_punta.webp"
+    }
+  ],
+   "ALICATE_REDONDO":[
+     {
+      "id": 1,
+      "nombre": "Alicate Redondo",
+      "descripcion": "(ALR345P) PROF 4.5",
+      "codigo":"ALIR4P",
+      "precio": 950,
+      "stock": 500,
+      "imagen": "/imagenes/12.Alicate_redondo.webp"
     }
   ]
-}
+ },
+  "alcayatas": {
+  "ALCAYATA_RUSTICA": [
+    {
+      "id": 1,
+      "nombre": "Alcayata",
+      "descripcion": "3x5",
+      "codigo":"ALT35",
+      "precio": 15000,
+      "stock": 12000,
+      "imagen": "/imagenes/13.Alcayata_rustica.webp"
+    },
+    {
+      "id": 2,
+      "nombre": "Alcayata7",
+      "descripcion": "3x7",
+      "codigo":"ALT7U",
+      "precio": 7000,
+      "stock": 500,
+      "imagen": "/imagenes/13.Alcayata_rustica.webp"
+    }
+  ],
+   "SET_PICAPORTE_JUMBO":[
+     {
+      "id": 1,
+      "nombre": "Set Picaporte Jumbo",
+      "descripcion": "10'' UYUS (PIA001)",
+      "codigo":"DPIPOJ36",
+      "precio": 4000,
+      "stock": 999,
+      "imagen": "/imagenes/14.Set_picaporte_jumbo.webp"
+    }
+  ],
+   "MANILLA_RUSTICA":[
+     {
+      "id": 1,
+      "nombre": "Manilla Rustica 1",
+      "descripcion": "CON BASE (N°4)",
+      "codigo":"MANIRUB",
+      "precio": 3000,
+      "stock": 200,
+      "imagen": "/imagenes/15.Manilla_rustica_1.webp"
+    },
+    {
+      "id": 2,
+      "nombre": "Manilla Rustica 2",
+      "descripcion": "SIN BASE (N°6)",
+      "codigo":"ANIRU",
+      "precio": 8000,
+      "stock": 400,
+      "imagen": "/imagenes/16.Manilla_rustica_2.webp"
+    }
+  ]
+ },
+ "agricola": {
+  "Horqueta_Pasto": [
+    {
+      "id": 1,
+      "nombre": "Horqueta Pasto",
+      "descripcion": "4G SIN MANGO (RAM101)",
+      "codigo":"HORRAM101",
+      "precio": 5000,
+      "stock": 2000,
+      "imagen": "/imagenes/17.Horqueta_pasto.webp"
+    }
+  ],
+   "ROZON_TRAMONTINA":[
+     {
+      "id": 1,
+      "nombre": "Rozon Tramontina",
+      "descripcion": "TRAMONTINA AMBIDIESTRO(77600-115)",
+      "codigo":"RATA7715",
+      "precio": 9000,
+      "stock": 79,
+      "imagen": "/imagenes/18.Rozon_tramontina.webp"
+    }
+  ],
+   "ECHONA_DENTADA":[
+     {
+      "id": 1,
+      "nombre": "Echona Dentada",
+      "descripcion": "La Pajarita(015-018-025-030)",
+      "codigo":"EPAD123",
+      "precio": 6500,
+      "stock": 343,
+      "imagen": "/imagenes/19.Echona_dentada.webp"
+    }
+  ],
+    "PICOTA_UYUS":[
+     {
+      "id": 1,
+      "nombre": "Picota uyus",
+      "descripcion": "Mango madera (OMAPI000)",
+      "codigo":"PITAUYUS",
+      "precio": 16500,
+      "stock": 700,
+      "imagen": "/imagenes/20.Picota_uyus.webp"
+    },
+     {
+      "id": 2,
+      "nombre": "Picota sin mango",
+      "descripcion": "Picota sin mango",
+      "codigo":"PC402Y",
+      "precio": 8500,
+      "stock": 300,
+      "imagen": "/imagenes/21.Picota_sin_mango.webp"
+    }
+  ],
+    "AZADON":[
+     {
+      "id": 1,
+      "nombre": "Azadon_1",
+      "descripcion": "2 LB (AZD2Y)",
+      "codigo":"AZAD2",
+      "precio": 20000,
+      "stock": 600,
+      "imagen": "/imagenes/22.Azadon_sin_mango.webp"
+    },
+    {
+      "id": 1,
+      "nombre": "Azadon_2",
+      "descripcion": "3 LB (AZD03Y)",
+      "codigo":"AZAD3",
+      "precio": 14000,
+      "stock": 1350,
+      "imagen": "/imagenes/23.Azadon_con_mango.webp"
+    }      
+  ]
+ }
+
+
+
+
+}  
