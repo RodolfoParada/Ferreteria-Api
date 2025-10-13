@@ -865,6 +865,101 @@
       "imagen": "/imagenes/73.Chapa_mueble_3.webp"
     }
   ]
+},
+
+
+"discos": {
+  "DISCOS": [
+    {
+      "id": 1,
+      "nombre": "Disco de corte",
+      "descripcion": "disco corte",
+      "codigo":"CD-CRT",
+      "precio": 2000,
+      "stock": 100,
+      "imagen": "/imagenes/74.Disco_corte.webp"
+    },
+     {
+      "id": 2,
+      "nombre": "Disco desbaste",
+      "descripcion": "disco desbaste",
+      "codigo":"CD-DEB",
+      "precio": 3000,
+      "stock":  100,
+      "imagen": "/imagenes/75.Disco_desbaste.webp"
+    },
+      {
+      "id": 3,
+      "nombre": "Disco fino corte",
+      "descripcion": "disco corte",
+      "codigo":"CD-DCF",
+      "precio": 3000,
+      "stock": 100,
+      "imagen": "/imagenes/76.Disco_fino_corte.webp"
+    },
+     {
+      "id": 4,
+      "nombre": "Disco flap madera",
+      "descripcion": "disco flap",
+      "codigo":"DC-FPM1",
+      "precio": 15990,
+      "stock": 100,
+      "imagen": "/imagenes/77.Disco_flap_madera.webp"
+    },
+      {
+      "id": 5,
+      "nombre": "Disco flap metal",
+      "descripcion": "disco flap",
+      "codigo":"DC-FPM2",
+      "precio": 30000,
+      "stock": 100,
+      "imagen": "/imagenes/78.Disco_flap_metal.webp"
+    },
+      {
+      "id": 6,
+      "nombre": "Disco pulir removedor",
+      "descripcion": "removedor de pintura",
+      "codigo":"DC-FPM2",
+      "precio": 2400,
+      "stock": 100,
+      "imagen": "/imagenes/79.Disco_removedor.webp"
+    },
+       {
+      "id": 7,
+      "nombre": "Disco goma taladro",
+      "descripcion": "disco para taladro",
+      "codigo":"DC-TDR",
+      "precio": 4000,
+      "stock": 100,
+      "imagen": "/imagenes/80.Disco_goma_taladro.webp"
+    },
+      {
+      "id": 8,
+      "nombre": "Disco lija velcro",
+      "descripcion": "disco para taladro",
+      "codigo":"DC-TDR",
+      "precio": 4500,
+      "stock": 100,
+      "imagen": "/imagenes/81.Disco_lija_velcro.webp"
+    },
+    {
+      "id": 9,
+      "nombre": "Disco pulir",
+      "descripcion": "disco pulir",
+      "codigo":"DP-12",
+      "precio": 4500,
+      "stock": 100,
+      "imagen": "/imagenes/81.Disco_pulir.webp"
+    },{
+      "id": 10,
+      "nombre": "Disco sierra madera",
+      "descripcion": "sierra para madera",
+      "codigo":"DS-TDR",
+      "precio": 5500,
+      "stock": 100,
+      "imagen": "/imagenes/82.Disco_sierra_madera.webp"
+    }
+  ]
 }
 
 
