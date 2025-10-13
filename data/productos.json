@@ -687,7 +687,186 @@
       "imagen": "/imagenes/55.Bombin_mini.webp"
     }
   ]
+},
+
+
+  "chapas": {
+  "CHAPA_DORMITORIO": [
+    {
+      "id": 1,
+      "nombre": "Chapa con llaves",
+      "descripcion": "Chapa dormitorio",
+      "codigo":"CPD3",
+      "precio": 8425,
+      "stock": 801,
+      "imagen": "/imagenes/56.Chapa_dormitorio.webp"
+    },
+     {
+      "id": 2,
+      "nombre": "Chapa con manilla",
+      "descripcion": "Chapa dormitorio",
+      "codigo":"CPD4",
+      "precio": 9500,
+      "stock":  600,
+      "imagen": "/imagenes/57.Chapa_con_manilla.webp"
+    },
+      {
+      "id": 3,
+      "nombre": "Chapa con mailla cuadrada",
+      "descripcion": "Chapa dormitorio",
+      "codigo":"C-26",
+      "precio": 9900,
+      "stock": 717,
+      "imagen": "/imagenes/58.Chapa_con_manilla_cuadrada.webp"
+    }
+  ],
+   "CHAPA_PORTON":[
+     {
+      "id": 1,
+      "nombre": "Cerradura reja 1",
+      "descripcion": "Cerradura exterior",
+      "codigo":"CREXT-1",
+      "precio": 13990,
+      "stock": 1200,
+      "imagen": "/imagenes/59.Cerradura_reja_1.webp"
+    },
+    {
+      "id": 2,
+      "nombre": "Cerradura reja 2",
+      "descripcion": "Cerradura exterior",
+      "codigo":"CREXT-2",
+      "precio": 24990,
+      "stock": 1050,
+      "imagen": "/imagenes/60.Cerradura_reja_2.webp"
+    },
+      {
+      "id": 3,
+      "nombre": "Cerradura reja 3",
+      "descripcion":"Cerradura exterior",
+      "codigo":"CREXT-3",
+      "precio": 13990,
+      "stock": 990,
+      "imagen": "/imagenes/61.Cerradura_reja_3.webp"
+    }
+  ],
+   "Cerradura Baño":[
+     {
+      "id": 1,
+      "nombre": "Cerradura baño 1",
+      "descripcion":"Cerradura baño",
+      "codigo":"CB-1",
+      "precio": 42000,
+      "stock": 350,
+      "imagen": "/imagenes/62.Cerradura_bano_1.webp"
+    },
+    {
+      "id": 2,
+      "nombre": "Cerradura baño 2",
+      "descripcion":"Cerradura baño bronce",
+      "codigo":"CB-2",
+      "precio": 32000,
+      "stock": 1350,
+      "imagen": "/imagenes/63.Cerradura_bano_2.webp"
+    },
+    {
+      "id": 3,
+      "nombre": "Cerradura baño 3",
+      "descripcion":"Cerradura baño inoxidable",
+      "codigo":"CB-3",
+      "precio": 6000,
+      "stock": 850,
+      "imagen": "/imagenes/64.Cerradura_bano_3.webp"
+    }
+  ],
+    "CHAPA_PRINCIPAL":[
+     {
+      "id": 1,
+      "nombre": "Cerradura principal 1",
+      "descripcion":"Cerradura embutida acceso",
+      "codigo":"CRP-L1",
+      "precio": 17300,
+      "stock":  690,
+      "imagen": "/imagenes/65.Cerradura_principal_1.webp"
+    },
+     {
+      "id": 2,
+      "nombre": "Cerradura principal 2",
+      "descripcion":"Cerradura embutida acceso",
+      "codigo":"CRP-L2",
+      "precio": 17300,
+      "stock":  1190,
+      "imagen": "/imagenes/66.Cerradura_principal_2.webp"
+    },
+      {
+      "id": 3,
+      "nombre": "Cerradura principal 3",
+      "descripcion":"Cerradura embutida acceso",
+      "codigo":"CRP-L3",
+      "precio": 12300,
+      "stock":  9000,
+      "imagen": "/imagenes/67.Cerradura_principal_3.webp"
+    }
+  ],  
+   "CERROJO_LLAVE_SEGURO":[
+     {
+      "id": 1,
+      "nombre": "Cerrojo llave seguro 1",
+      "descripcion":"cerradura interior",
+      "codigo":"CLL-1",
+      "precio": 10990,
+      "stock": 498,
+      "imagen": "/imagenes/68.Cerrojo_llave_seguro_1.webp"
+    },
+    {
+      "id": 2,
+      "nombre": "Cerrojo llave seguro 2",
+      "descripcion":"cerradura interior",
+      "codigo":"CLL-2",
+      "precio": 8990,
+      "stock": 748,
+      "imagen": "/imagenes/69.Cerrojo_llave_seguro_2.webp"
+    },
+     {
+      "id": 3,
+      "nombre": "Cerrojo llave seguro 3",
+      "descripcion":"cerradura interior",
+      "codigo":"CLL-2",
+      "precio": 6990,
+      "stock": 546,
+      "imagen": "/imagenes/70.Cerrojo_llave_seguro_3.webp"
+    }
+  ],
+     "CERRADURA_MUEBLE":[
+     {
+      "id": 1,
+      "nombre": "Cerradura mueble 1",
+      "descripcion":"cerradura mueble",
+      "codigo":"CRM-1",
+      "precio": 5990,
+      "stock": 400,
+      "imagen": "/imagenes/71.Chapa_mueble_1.webp"
+    },
+    {
+      "id": 2,
+      "nombre": "Cerradura mueble 2",
+      "descripcion":"cerradura mueble",
+      "codigo":"CRM-2",
+      "precio": 5990,
+      "stock": 450,
+      "imagen": "/imagenes/72.Chapa_mueble_2.webp"
+    },
+     {
+      "id": 3,
+      "nombre": "Cerradura mueble 3",
+      "descripcion":"cerradura mueble",
+      "codigo":"CRM-3",
+      "precio": 5990,
+      "stock": 550,
+      "imagen": "/imagenes/73.Chapa_mueble_3.webp"
+    }
+  ]
 }
+
 
 
 }
