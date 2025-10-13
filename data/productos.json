@@ -104,6 +104,8 @@
     }
   ]
 },
+
+
   "alicates": {
   "ALICATE_UNIVERSAL": [
     {
@@ -201,6 +203,8 @@
     }
   ]
  },
+
+
   "alcayatas": {
   "ALCAYATA_RUSTICA": [
     {
@@ -254,6 +258,8 @@
     }
   ]
  },
+
+
  "agricola": {
   "HORQUETA_PASTO": [
     {
@@ -329,6 +335,7 @@
     }      
   ]
  },
+
 
   "auto": {
   "ACERO_LIQUIDO_REX": [
@@ -428,6 +435,268 @@
       "imagen": "/imagenes/32.Silicona_spray.webp"
     }
   ]
+},
+
+
+  "llaves": {
+  "LLAVE_ALEN": [
+    {
+      "id": 1,
+      "nombre": "Llave Alen",
+      "descripcion": "juego de llaves 8 pizas",
+      "codigo":"LLA8",
+      "precio": 3000,
+      "stock": 700,
+      "imagen": "/imagenes/33.Llave_alen.webp"
+    }
+  ],
+   "LLAVE_ESTRELLA":[
+     {
+      "id": 1,
+      "nombre": "Llave Estrella",
+      "descripcion": "juego de llaves 10 pizas",
+      "codigo":"SET10",
+      "precio": 3000,
+      "stock": 400,
+      "imagen": "/imagenes/34.Llave_estrella.webp"
+    }
+  ],
+   "CORTA_TURBO":[
+     {
+      "id": 1,
+      "nombre": "Corta Turbo",
+      "descripcion":"Cortador",
+      "codigo":"COTU",
+      "precio": 7500,
+      "stock": 5000,
+      "imagen": "/imagenes/35.Corta_turbo.webp"
+    }
+  ],
+  "LLAVE_CREQUI_CHICHARA":[
+     {
+      "id": 1,
+      "nombre": "Chichara",
+      "descripcion":"Llave",
+      "codigo":"CL11",
+      "precio": 9500,
+      "stock": 325,
+      "imagen": "/imagenes/42.Llave_crequi_chichara.webp"
+    }
+  ],
+  "LLAVE_CRUZ":[
+     {
+      "id": 1,
+      "nombre": "Llave cruz",
+      "descripcion":"Llave",
+      "codigo":"CR-12",
+      "precio": 8990,
+      "stock": 375,
+      "imagen": "/imagenes/43.Llave_cruz.webp"
+    }
+  ],
+  "LLAVE_EXTENSION":[
+     {
+      "id": 1,
+      "nombre": "Llave extension",
+      "descripcion":"Llave",
+      "codigo":"LEXT-11l",
+      "precio": 9025,
+      "stock": 380,
+      "imagen": "/imagenes/44.Llave_extension.webp"
+    }
+  ]    
+},
+
+"sierra": {
+  "ARCO_SIERRA": [
+    {
+      "id": 1,
+      "nombre": "Arco sierra",
+      "descripcion": "sierra y marco",
+      "codigo":"SIEMO1",
+      "precio": 13000,
+      "stock": 1700,
+      "imagen": "/imagenes/36.Arco_sierra.webp"
+    }
+  ],
+   "ARCO_SIERRA_CROMADA":[
+     {
+      "id": 1,
+      "nombre": "Arco sierra cromada",
+      "descripcion": "sierra y marco cromada",
+      "codigo":"SMC12",
+      "precio": 20000,
+      "stock": 1400,
+      "imagen": "/imagenes/37.Arco_sierra_cromada.webp"
+    }
+  ],
+   "ARCO_SIERRA_NORMAL":[
+     {
+      "id": 1,
+      "nombre": "Arco sierra normal",
+      "descripcion":"sierra normal con marco",
+      "codigo":"MNM12",
+      "precio": 15000,
+      "stock": 7000,
+      "imagen": "/imagenes/38.Arco_sierra_normal.webp"
+    }
+  ],
+  "ARCO_SIERRA_ESCOLAR":[
+     {
+      "id": 1,
+      "nombre": "Arco sierra escolar",
+      "descripcion":"mardo escolar",
+      "codigo":"MCJ01",
+      "precio": 16000,
+      "stock": 8000,
+      "imagen": "/imagenes/39.Arco_sierra_escolar.webp"
+    }
+  ], 
+    "HOJA_SIERRA_METAL":[
+     {
+      "id": 1,
+      "nombre": "Hoja sierra metal",
+      "descripcion":"set hoja de sierra metal",
+      "codigo":"HJSR",
+      "precio": 16000,
+      "stock": 8000,
+      "imagen": "/imagenes/40.Hoja_metal.webp"
+    }
+  ],  
+   "HOJA_SIERRA_MADERA":[
+     {
+      "id": 1,
+      "nombre": "Hoja sierra madera",
+      "descripcion":"set hoja de sierra madera",
+      "codigo":"HJSR",
+      "precio": 16000,
+      "stock": 8000,
+      "imagen": "/imagenes/41.Hoja_madera.webp"
+    }
+  ]
+},
+
+
+  "bicicleta": {
+  "CAMARA_BICICLETA": [
+    {
+      "id": 1,
+      "nombre": "Camara aro 20",
+      "descripcion": "Caramara bicicleta",
+      "codigo":"C-20",
+      "precio": 1500,
+      "stock": 717,
+      "imagen": "/imagenes/45.Camara_aro_20.webp"
+    },
+     {
+      "id": 2,
+      "nombre": "Camara aro 24",
+      "descripcion": "Caramara bicicleta",
+      "codigo":"C-24",
+      "precio": 1500,
+      "stock": 717,
+      "imagen": "/images/46.Camara_aro_24.webp"
+    },
+      {
+      "id": 3,
+      "nombre": "Camara aro 26",
+      "descripcion": "Caramara bicicleta",
+      "codigo":"C-26",
+      "precio": 1500,
+      "stock": 717,
+      "imagen": "/imagenes/47.Camara_aro_26.webp"
+    }
+  ],
+   "FORRO_BICICLETA":[
+     {
+      "id": 1,
+      "nombre": "Forro aro 20",
+      "descripcion": "Forro aro 20",
+      "codigo":"FA-20",
+      "precio": 9900,
+      "stock": 200,
+      "imagen": "/imagenes/48.Forro_20.webp"
+    },
+    {
+      "id": 2,
+      "nombre": "Forro aro 24",
+      "descripcion": "Forro aro 24",
+      "codigo":"FA-24",
+      "precio": 9900,
+      "stock": 200,
+      "imagen": "/imagenes/49.Forro_24.webp"
+    },
+      {
+      "id": 3,
+      "nombre": "Forro aro 26",
+      "descripcion": "Forro aro 26",
+      "codigo":"FA-26",
+      "precio": 9900,
+      "stock": 200,
+      "imagen": "/imagenes/50.Forro_26.webp"
+    }
+  ],
+   "PARCHE_BICICLETA":[
+     {
+      "id": 1,
+      "nombre": "Parche bicicleta",
+      "descripcion":"54x32mm",
+      "codigo":"PB-54",
+      "precio": 2000,
+      "stock": 100,
+      "imagen": "/imagenes/51.Parche_bicicleta.webp"
+    }
+  ],
+    "PEGAMENTO_PARCHE":[
+     {
+      "id": 1,
+      "nombre": "Pegamento parche",
+      "descripcion":"pegamento para parches bicicletas",
+      "codigo":"PPB-43",
+      "precio": 3000,
+      "stock":  240,
+      "imagen": "/imagenes/52.Pegamento_bicicleta.webp"
+    }
+  ],  
+   "BOMBIN":[
+     {
+      "id": 1,
+      "nombre": "Bombin manual",
+      "descripcion":"bomin manual",
+      "codigo":"BM005",
+      "precio": 13990,
+      "stock": 475,
+      "imagen": "/imagenes/53.Bombin_manual.webp"
+    },
+    {
+      "id": 2,
+      "nombre": "Bombin con compresor",
+      "descripcion":"bomin con compresor",
+      "codigo":"BCC-19",
+      "precio": 23990,
+      "stock": 405,
+      "imagen": "/imagenes/54.Bombin_compresor.webp"
+    },
+     {
+      "id": 3,
+      "nombre": "Bombin mini bicicleta",
+      "descripcion":"bombin mini",
+      "codigo":"BMN-543",
+      "precio": 8990,
+      "stock": 11809,
+      "imagen": "/imagenes/55.Bombin_mini.webp"
+    }
+  ]
 }
 
-}  
+
+}
+
+
+
+
+
+
+  
+
+ 
