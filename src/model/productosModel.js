@@ -81,4 +81,4 @@ class ProductosModel {
 // Exportamos la Clase para que pueda ser utilizada
 
 
-module.exports = new ProductosModel; 
+module.exports = new ProductosModel(); 

@@ -2,58 +2,16 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Inventario Ferretería</title>
+    <title>Productos</title>
 </head>
 <body>
-    <h1>Catálogo de Productos</h1>
-    <div id="productos-lista">
-        Cargando productos...
-    </div>
 
-    <script>
-        // Lógica de JavaScript para consumir la API
-        async function cargarProductos() {
-            const listaDiv = document.getElementById('productos-lista');
-            listaDiv.innerHTML = 'Cargando...';
+    <h1>Lista de Productos</h1>
 
-            try {
-                // 1. Petición a tu API de Node.js
-                const response = await fetch('http://localhost:3000/api/productos');
-                
-                // 2. Convertir la respuesta a JSON
-                const apiData = await response.json(); 
+    <div id="lista-productos"></div>
 
-                // 3. Obtener el array de productos (data)
-                const productos = apiData.data;
+    <!-- Cargar tu script -->
+    <script src="/public/js/productosService.js"></script>
 
-                if (!productos || productos.length === 0) {
-                    listaDiv.innerHTML = '<p>No se encontraron productos.</p>';
-                    return;
-                }
-
-                // 4. Construir el HTML
-                let html = '<ul>';
-                productos.forEach(producto => {
-                    html += `
-                        <li>
-                            <strong>${producto.nombre}</strong> (${producto.codigo})
-                            <br>Precio: $${producto.precio} | Stock: ${producto.stock}
-                            <br>Categoría: ${producto.categoria}
-                        </li>
-                    `;
-                });
-                html += '</ul>';
-
-                // 5. Mostrar en la vista
-                listaDiv.innerHTML = html;
-
-            } catch (error) {
-                listaDiv.innerHTML = `<p style="color: red;">Error al conectar con la API: ${error.message}</p>`;
-                console.error('Error de fetch:', error);
-            }
-        }
-
-        cargarProductos();
-    </script>
 </body>
 </html>
