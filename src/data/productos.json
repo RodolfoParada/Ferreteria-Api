@@ -949,8 +949,9 @@
       "codigo":"DP-12",
       "precio": 4500,
       "stock": 100,
-      "imagen": "/imagenes/81.Disco_pulir.webp"
-    },{
+      "imagen": "/imagenes/82.Disco_pulir.webp"
+    },
+    {
       "id": 10,
       "nombre": "Disco sierra madera",
       "descripcion": "sierra para madera",
@@ -959,10 +960,40 @@
       "stock": 100,
       "imagen": "/imagenes/82.Disco_sierra_madera.webp"
     }
+    ]
+},
+
+"duchas": {
+  "DUCHAS": [
+    {
+      "id": 1,
+      "nombre": "Ducha Marsella",
+      "descripcion": "monomando cromo",
+      "codigo":"DMMC-M",
+      "precio": 30000,
+      "stock": 550,
+      "imagen": "/imagenes/84.Ducha_marsella.webp"
+    },
+     {
+      "id": 2,
+       "nombre": "Ducha Napolés",
+      "descripcion": "monomando cromo",
+      "codigo":"DMMC-N",
+      "precio": 30000,
+      "stock": 550,
+      "imagen": "/imagenes/85.Ducha_napoles.webp"
+    },
+      {
+      "id": 3,
+      "nombre": "Ducha Priego",
+      "descripcion": "monomando cromo",
+      "codigo":"DMMC-p",
+      "precio": 30000,
+      "stock": 550,
+      "imagen": "/imagenes/86.Ducha_priego.webp"
+    }
   ]
 }
-
-
 
 }
 
