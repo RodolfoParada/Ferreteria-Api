@@ -8,7 +8,7 @@
       "codigo":"ALD112J",
       "precio": 300,
       "stock": 20000,
-      "imagen": "/imagenes/1.Aldaba_l.webp"
+      "imagen": "1.Aldaba_l.webp"
     },
     {
       "id": 2,
@@ -17,7 +17,7 @@
       "codigo":"ALD2J",
       "precio": 400,
       "stock": 350000,
-      "imagen": "/imagenes/1.Aldaba_l.webp"
+      "imagen": "1.Aldaba_l.webp"
     },
     {
       "id": 3,
@@ -26,7 +26,7 @@
       "codigo":"ALD212J",
       "precio": 500,
       "stock": 100000,
-      "imagen": "/imagenes/1.Aldaba_l.webp"
+      "imagen": "1.Aldaba_l.webp"
     }
   ],
   "TOPE_PUERTA_CILINDRICO": [
@@ -38,7 +38,7 @@
       "color": "Blanco",
       "precio": 100,
       "stock": 700000,
-      "imagen": "/imagenes/2.Tope_puerta_blanco.webp"
+      "imagen": "2.Tope_puerta_blanco.webp"
     },
     {
       "id": 2,
@@ -48,7 +48,7 @@
       "codigo":"TP-N",
       "precio": 100,
       "stock": 50000,
-      "imagen": "/imagenes/2.Tope_puerta_negro.webp"
+      "imagen": "2.Tope_puerta_negro.webp"
     },
     {
       "id": 3,
@@ -58,7 +58,7 @@
       "color": "Café",
       "precio": 100,
       "stock": 21500,
-      "imagen": "/imagenes/2.Tope_de_puerta_cafe.webp"
+      "imagen": "2.Tope_de_puerta_cafe.webp"
     }
   ],
    "RETEN_RODILLO":[
@@ -69,7 +69,7 @@
       "codigo":"RETRAOU",
       "precio": 750,
       "stock": 90000,
-      "imagen": "/imagenes/3.Reten_rodillo.webp"
+      "imagen": "3.Reten_rodillo.webp"
     }
   ],
   "RETEN_MAGNETICO":[
@@ -80,7 +80,7 @@
       "codigo":"RETB",
       "precio": 300,
       "stock": 20000,
-      "imagen": "/imagenes/4.Reten_magnetico_blanco.webp"
+      "imagen": "4.Reten_magnetico_blanco.webp"
     },
     {
       "id": 2,
@@ -89,7 +89,7 @@
       "codigo":"RETC",
       "precio": 400,
       "stock": 350000,
-      "imagen": "/imagenes/4.Reten_magnetico_cafe.webp"
+      "imagen": "4.Reten_magnetico_café.webp"
     }
   ],
   "VISOR_DE_PUERTA":[
@@ -100,7 +100,7 @@
       "codigo":"VISPEZ",
       "precio": 500,
       "stock": 190000,
-      "imagen": "/imagenes/Ojo_de_pez.webp"
+      "imagen": "5.Ojo_de_pez.webp"
     }
   ]
 },
@@ -115,7 +115,7 @@
       "codigo":"ALIU6U",
       "precio": 1000,
       "stock": 1000,
-      "imagen": "/imagenes/6.Alicate_universal.webp"
+      "imagen": "6.Alicate_universal.webp"
     },
     {
       "id": 2,
@@ -124,7 +124,7 @@
       "codigo":"ALIU7U",
       "precio": 1000,
       "stock": 1000,
-      "imagen": "/imagenes/6.Alicate_universal.webp"
+      "imagen": "6.Alicate_universal.webp"
     },
     {
       "id": 3,
@@ -133,7 +133,7 @@
       "codigo":"ALIU8U",
       "precio": 1000,
       "stock": 1000,
-      "imagen": "/imagenes/6.Alicate_universal.webp"
+      "imagen": "6.Alicate_universal.webp"
     }
   ],
    "ALICATE_CORTE":[
@@ -144,7 +144,7 @@
       "codigo":"PEL65U",
       "precio": 1200,
       "stock": 100000,
-      "imagen": "/imagenes/7.Alicante_corte.webp"
+      "imagen": "7.Alicate_corte.webp"
     }
   ],
    "ALICATE_PUNTA":[
@@ -155,7 +155,7 @@
       "codigo":"PEL65U",
       "precio": 1200,
       "stock": 100000,
-      "imagen": "/imagenes/8.Alicate_punta.webp"
+      "imagen": "8.Alicate_punta.webp"
     }
   ],
    "PELACABLE":[
@@ -166,7 +166,7 @@
       "codigo":"PEL65U",
       "precio": 1800,
       "stock": 100000,
-      "imagen": "/imagenes/9.Alicate_pelacable.webp"
+      "imagen": "9.Alicate_pelacable.webp"
     }
   ],
    "ALICATE_CORTANTE":[
@@ -177,7 +177,7 @@
       "codigo":"ALIT4P",
       "precio": 950,
       "stock": 500,
-      "imagen": "/imagenes/10.Alicate_cortante.webp"
+      "imagen": "10.Alicate_cortante.webp"
     }
   ],
    "ALICATE_DE_PUNTA":[
@@ -188,7 +188,7 @@
       "codigo":"ALIP4P",
       "precio": 1050,
       "stock": 500,
-      "imagen": "/imagenes/11.Alicate_punta.webp"
+      "imagen": "11.Alicate_punta.webp"
     }
   ],
    "ALICATE_REDONDO":[
@@ -199,7 +199,7 @@
       "codigo":"ALIR4P",
       "precio": 950,
       "stock": 500,
-      "imagen": "/imagenes/12.Alicate_redondo.webp"
+      "imagen": "12.Alicate_redondo.webp"
     }
   ]
  },
@@ -214,7 +214,7 @@
       "codigo":"ALT35",
       "precio": 15000,
       "stock": 12000,
-      "imagen": "/imagenes/13.Alcayata_rustica.webp"
+      "imagen": "13.Alcayata_rustica.webp"
     },
     {
       "id": 2,
@@ -223,7 +223,7 @@
       "codigo":"ALT7U",
       "precio": 7000,
       "stock": 500,
-      "imagen": "/imagenes/13.Alcayata_rustica.webp"
+      "imagen": "13.Alcayata_rustica.webp"
     }
   ],
    "SET_PICAPORTE_JUMBO":[
@@ -234,7 +234,7 @@
       "codigo":"DPIPOJ36",
       "precio": 4000,
       "stock": 999,
-      "imagen": "/imagenes/14.Set_picaporte_jumbo.webp"
+      "imagen": "14.Set_picaporte_jumbo.webp"
     }
   ],
    "MANILLA_RUSTICA":[
@@ -245,7 +245,7 @@
       "codigo":"MANIRUB",
       "precio": 3000,
       "stock": 200,
-      "imagen": "/imagenes/15.Manilla_rustica_1.webp"
+      "imagen": "15.Manilla_rustica_1.webp"
     },
     {
       "id": 2,
@@ -254,7 +254,7 @@
       "codigo":"ANIRU",
       "precio": 8000,
       "stock": 400,
-      "imagen": "/imagenes/16.Manilla_rustica_2.webp"
+      "imagen": "16.Manilla_rustica_2.webp"
     }
   ]
  },
@@ -269,7 +269,7 @@
       "codigo":"HORRAM101",
       "precio": 5000,
       "stock": 2000,
-      "imagen": "/imagenes/17.Horqueta_pasto.webp"
+      "imagen": "17.Horqueta_pasto.webp"
     }
   ],
    "ROZON_TRAMONTINA":[
@@ -280,7 +280,7 @@
       "codigo":"RATA7715",
       "precio": 9000,
       "stock": 79,
-      "imagen": "/imagenes/18.Rozon_tramontina.webp"
+      "imagen": "18.Rozon_tramontina.webp"
     }
   ],
    "ECHONA_DENTADA":[
@@ -291,7 +291,7 @@
       "codigo":"EPAD123",
       "precio": 6500,
       "stock": 343,
-      "imagen": "/imagenes/19.Echona_dentada.webp"
+      "imagen": "19.Echona_dentada.webp"
     }
   ],
     "PICOTA_UYUS":[
@@ -302,7 +302,7 @@
       "codigo":"PITAUYUS",
       "precio": 16500,
       "stock": 700,
-      "imagen": "/imagenes/20.Picota_uyus.webp"
+      "imagen": "20.Picota_uyus.webp"
     },
      {
       "id": 2,
@@ -311,7 +311,7 @@
       "codigo":"PC402Y",
       "precio": 8500,
       "stock": 300,
-      "imagen": "/imagenes/21.Picota_sin_mango.webp"
+      "imagen": "21.Picota_sin_mango.webp"
     }
   ],
     "AZADON":[
@@ -322,7 +322,7 @@
       "codigo":"AZAD2",
       "precio": 20000,
       "stock": 600,
-      "imagen": "/imagenes/22.Azadon_sin_mango.webp"
+      "imagen": "22.Azadon_sin_mango.webp"
     },
     {
       "id": 2,
@@ -331,7 +331,7 @@
       "codigo":"AZAD3",
       "precio": 14000,
       "stock": 1350,
-      "imagen": "/imagenes/23.Azadon_con_mango.webp"
+      "imagen": "23.Azadon_con_mango.webp"
     }      
   ]
  },
@@ -346,7 +346,7 @@
       "codigo":"PTPA09",
       "precio": 2000,
       "stock": 7000,
-      "imagen": "/imagenes/24.Acero_liquido_rex.webp"
+      "imagen": "24.Acero_liquido_rex.webp"
     }
   ],
    "GRASA_CONSISTENTE":[
@@ -357,7 +357,7 @@
       "codigo":"PTCONSIS",
       "precio": 9000,
       "stock": 7900,
-      "imagen": "/imagenes/25.Grasa_consistente.webp"
+      "imagen": "25.Grasa_consistente.webp"
     }
   ],
    "BARRA_SILICONA":[
@@ -368,7 +368,7 @@
       "codigo":"PASI39",
       "precio": 7500,
       "stock": 5000,
-      "imagen": "/imagenes/26.Barra_silicona_1.webp"
+      "imagen": "26.Barra_silicona_1.webp"
     },
     {
       "id": 2,
@@ -377,7 +377,7 @@
       "codigo":"SXRT",
       "precio": 6500,
       "stock": 5000,
-      "imagen": "/imagenes/27.Barra_silicona_2.webp"
+      "imagen": "27.Barra_silicona_2.webp"
     }
   ], 
   "INFLA_Y_SELLA":[
@@ -388,7 +388,7 @@
       "codigo":"ISELLA450",
       "precio": 8000,
       "stock": 1200,
-      "imagen": "/imagenes/28.Infla_y_sella.webp"
+      "imagen": "28.Infla_y_sella.webp"
     }
   ],
   "lIMPIA_CONTACTO":[
@@ -399,7 +399,7 @@
       "codigo":"LIMCON300",
       "precio": 2000,
       "stock": 1000,
-      "imagen": "/imagenes/29.Limpia_contacto.webp"
+      "imagen": "29.Limpia_contacto.webp"
     }
   ],
    "LUBRICANTE":[
@@ -410,7 +410,7 @@
       "codigo":"WD-40 Multiuso",
       "precio": 3000,
       "stock": 2000,
-      "imagen": "/imagenes/30.Lubricante.webp"
+      "imagen": "30.Lubricante.webp"
     }
   ],
   "RENOVADOR_NEUMATICO":[
@@ -421,7 +421,7 @@
       "codigo":"RENO77",
       "precio": 6000,
       "stock": 500,
-      "imagen": "/imagenes/31.Renovador_neumatico.webp"
+      "imagen": "31.Renovador_neumatico.webp"
     }
   ],
   "SILICONA_SPRAY":[
@@ -432,7 +432,7 @@
       "codigo":"LimSprayIL",
       "precio": 4000,
       "stock": 500,
-      "imagen": "/imagenes/32.Silicona_spray.webp"
+      "imagen": "32.Silicona_spray_auto.webp"
     }
   ]
 },
@@ -447,7 +447,7 @@
       "codigo":"LLA8",
       "precio": 3000,
       "stock": 700,
-      "imagen": "/imagenes/33.Llave_alen.webp"
+      "imagen": "33.Llave_alen.webp"
     }
   ],
    "LLAVE_ESTRELLA":[
@@ -458,7 +458,7 @@
       "codigo":"SET10",
       "precio": 3000,
       "stock": 400,
-      "imagen": "/imagenes/34.Llave_estrella.webp"
+      "imagen": "34.Llave_estrella.webp"
     }
   ],
    "CORTA_TURBO":[
@@ -469,7 +469,7 @@
       "codigo":"COTU",
       "precio": 7500,
       "stock": 5000,
-      "imagen": "/imagenes/35.Corta_turbo.webp"
+      "imagen": "35.Corta_turbo.webp"
     }
   ],
   "LLAVE_CREQUI_CHICHARA":[
@@ -480,7 +480,7 @@
       "codigo":"CL11",
       "precio": 9500,
       "stock": 325,
-      "imagen": "/imagenes/42.Llave_crequi_chichara.webp"
+      "imagen": "42.Llave_crequi_chichara.webp"
     }
   ],
   "LLAVE_CRUZ":[
@@ -491,7 +491,7 @@
       "codigo":"CR-12",
       "precio": 8990,
       "stock": 375,
-      "imagen": "/imagenes/43.Llave_cruz.webp"
+      "imagen": "43.Llave_cruz.webp"
     }
   ],
   "LLAVE_EXTENSION":[
@@ -502,7 +502,7 @@
       "codigo":"LEXT-11l",
       "precio": 9025,
       "stock": 380,
-      "imagen": "/imagenes/44.Llave_extension.webp"
+      "imagen": "44.Llave_extension.webp"
     }
   ]    
 },
@@ -516,7 +516,7 @@
       "codigo":"SIEMO1",
       "precio": 13000,
       "stock": 1700,
-      "imagen": "/imagenes/36.Arco_sierra.webp"
+      "imagen": "36.Arco_sierra.webp"
     }
   ],
    "ARCO_SIERRA_CROMADA":[
@@ -527,7 +527,7 @@
       "codigo":"SMC12",
       "precio": 20000,
       "stock": 1400,
-      "imagen": "/imagenes/37.Arco_sierra_cromada.webp"
+      "imagen": "37.Arco_sierra_cromada.webp"
     }
   ],
    "ARCO_SIERRA_NORMAL":[
@@ -538,7 +538,7 @@
       "codigo":"MNM12",
       "precio": 15000,
       "stock": 7000,
-      "imagen": "/imagenes/38.Arco_sierra_normal.webp"
+      "imagen": "38.Arco_sierra_normal.webp"
     }
   ],
   "ARCO_SIERRA_ESCOLAR":[
@@ -549,7 +549,7 @@
       "codigo":"MCJ01",
       "precio": 16000,
       "stock": 8000,
-      "imagen": "/imagenes/39.Arco_sierra_escolar.webp"
+      "imagen": "39.Arco_sierra_escolar.webp"
     }
   ], 
     "HOJA_SIERRA_METAL":[
@@ -560,7 +560,7 @@
       "codigo":"HJSR",
       "precio": 16000,
       "stock": 8000,
-      "imagen": "/imagenes/40.Hoja_metal.webp"
+      "imagen": "40.Hoja_metal.webp"
     }
   ],  
    "HOJA_SIERRA_MADERA":[
@@ -571,7 +571,7 @@
       "codigo":"HJSR",
       "precio": 16000,
       "stock": 8000,
-      "imagen": "/imagenes/41.Hoja_madera.webp"
+      "imagen": "41.Hoja_madera.webp"
     }
   ]
 },
@@ -586,7 +586,7 @@
       "codigo":"C-20",
       "precio": 1500,
       "stock": 717,
-      "imagen": "/imagenes/45.Camara_aro_20.webp"
+      "imagen": "45.Camara_aro_20.webp"
     },
      {
       "id": 2,
@@ -595,7 +595,7 @@
       "codigo":"C-24",
       "precio": 1500,
       "stock": 717,
-      "imagen": "/images/46.Camara_aro_24.webp"
+      "imagen": "46.Camara_aro_24.webp"
     },
       {
       "id": 3,
@@ -604,7 +604,7 @@
       "codigo":"C-26",
       "precio": 1500,
       "stock": 717,
-      "imagen": "/imagenes/47.Camara_aro_26.webp"
+      "imagen": "47.Camara_aro_26.webp"
     }
   ],
    "FORRO_BICICLETA":[
@@ -615,7 +615,7 @@
       "codigo":"FA-20",
       "precio": 9900,
       "stock": 200,
-      "imagen": "/imagenes/48.Forro_20.webp"
+      "imagen": "48.Forro_20.webp"
     },
     {
       "id": 2,
@@ -624,7 +624,7 @@
       "codigo":"FA-24",
       "precio": 9900,
       "stock": 200,
-      "imagen": "/imagenes/49.Forro_24.webp"
+      "imagen": "49.Forro_24.webp"
     },
       {
       "id": 3,
@@ -633,7 +633,7 @@
       "codigo":"FA-26",
       "precio": 9900,
       "stock": 200,
-      "imagen": "/imagenes/50.Forro_26.webp"
+      "imagen": "50.Forro_26.webp"
     }
   ],
    "PARCHE_BICICLETA":[
@@ -644,7 +644,7 @@
       "codigo":"PB-54",
       "precio": 2000,
       "stock": 100,
-      "imagen": "/imagenes/51.Parche_bicicleta.webp"
+      "imagen": "51.Parche_bicicleta.webp"
     }
   ],
     "PEGAMENTO_PARCHE":[
@@ -655,7 +655,7 @@
       "codigo":"PPB-43",
       "precio": 3000,
       "stock":  240,
-      "imagen": "/imagenes/52.Pegamento_bicicleta.webp"
+      "imagen": "52.Pegamento_bicicleta.webp"
     }
   ],  
    "BOMBIN":[
@@ -666,7 +666,7 @@
       "codigo":"BM005",
       "precio": 13990,
       "stock": 475,
-      "imagen": "/imagenes/53.Bombin_manual.webp"
+      "imagen": "53.Bombin_manual.webp"
     },
     {
       "id": 2,
@@ -675,7 +675,7 @@
       "codigo":"BCC-19",
       "precio": 23990,
       "stock": 405,
-      "imagen": "/imagenes/54.Bombin_compresor.webp"
+      "imagen": "54.Bombin_compresor.webp"
     },
      {
       "id": 3,
@@ -684,7 +684,7 @@
       "codigo":"BMN-543",
       "precio": 8990,
       "stock": 11809,
-      "imagen": "/imagenes/55.Bombin_mini.webp"
+      "imagen": "55.Bombin_mini.webp"
     }
   ]
 },
@@ -699,7 +699,7 @@
       "codigo":"CPD3",
       "precio": 8425,
       "stock": 801,
-      "imagen": "/imagenes/56.Chapa_dormitorio.webp"
+      "imagen": "56.Chapa_con_llave.webp"
     },
      {
       "id": 2,
@@ -708,7 +708,7 @@
       "codigo":"CPD4",
       "precio": 9500,
       "stock":  600,
-      "imagen": "/imagenes/57.Chapa_con_manilla.webp"
+      "imagen": "57.Chapa_con_manilla.webp"
     },
       {
       "id": 3,
@@ -717,7 +717,7 @@
       "codigo":"C-26",
       "precio": 9900,
       "stock": 717,
-      "imagen": "/imagenes/58.Chapa_con_manilla_cuadrada.webp"
+      "imagen": "58.Chapa_con_manilla_cuadrada.webp"
     }
   ],
    "CHAPA_PORTON":[
@@ -728,7 +728,7 @@
       "codigo":"CREXT-1",
       "precio": 13990,
       "stock": 1200,
-      "imagen": "/imagenes/59.Cerradura_reja_1.webp"
+      "imagen": "59.Cerradura_reja_1.webp"
     },
     {
       "id": 2,
@@ -737,7 +737,7 @@
       "codigo":"CREXT-2",
       "precio": 24990,
       "stock": 1050,
-      "imagen": "/imagenes/60.Cerradura_reja_2.webp"
+      "imagen": "60.Cerradura_reja_2.webp"
     },
       {
       "id": 3,
@@ -746,7 +746,7 @@
       "codigo":"CREXT-3",
       "precio": 13990,
       "stock": 990,
-      "imagen": "/imagenes/61.Cerradura_reja_3.webp"
+      "imagen": "61.Cerradura_reja_3.webp"
     }
   ],
    "Cerradura Baño":[
@@ -757,7 +757,7 @@
       "codigo":"CB-1",
       "precio": 42000,
       "stock": 350,
-      "imagen": "/imagenes/62.Cerradura_bano_1.webp"
+      "imagen": "62.Cerradura_baño_1.webp"
     },
     {
       "id": 2,
@@ -766,7 +766,7 @@
       "codigo":"CB-2",
       "precio": 32000,
       "stock": 1350,
-      "imagen": "/imagenes/63.Cerradura_bano_2.webp"
+      "imagen": "63.Cerradura_baño_2.webp"
     },
     {
       "id": 3,
@@ -775,7 +775,7 @@
       "codigo":"CB-3",
       "precio": 6000,
       "stock": 850,
-      "imagen": "/imagenes/64.Cerradura_bano_3.webp"
+      "imagen": "64.Cerradura_baño_3.webp"
     }
   ],
     "CHAPA_PRINCIPAL":[
@@ -786,7 +786,7 @@
       "codigo":"CRP-L1",
       "precio": 17300,
       "stock":  690,
-      "imagen": "/imagenes/65.Cerradura_principal_1.webp"
+      "imagen": "65.Cerradura_principal_1.webp"
     },
      {
       "id": 2,
@@ -795,7 +795,7 @@
       "codigo":"CRP-L2",
       "precio": 17300,
       "stock":  1190,
-      "imagen": "/imagenes/66.Cerradura_principal_2.webp"
+      "imagen": "66.Cerradura_principal_2.webp"
     },
       {
       "id": 3,
@@ -804,7 +804,7 @@
       "codigo":"CRP-L3",
       "precio": 12300,
       "stock":  9000,
-      "imagen": "/imagenes/67.Cerradura_principal_3.webp"
+      "imagen": "67.Cerradura_principal_3.webp"
     }
   ],  
    "CERROJO_LLAVE_SEGURO":[
@@ -815,7 +815,7 @@
       "codigo":"CLL-1",
       "precio": 10990,
       "stock": 498,
-      "imagen": "/imagenes/68.Cerrojo_llave_seguro_1.webp"
+      "imagen": "68.Cerrojo_llave_seguro_1.webp"
     },
     {
       "id": 2,
@@ -824,7 +824,7 @@
       "codigo":"CLL-2",
       "precio": 8990,
       "stock": 748,
-      "imagen": "/imagenes/69.Cerrojo_llave_seguro_2.webp"
+      "imagen": "69.Cerrojo_llave_seguro_2.webp"
     },
      {
       "id": 3,
@@ -833,7 +833,7 @@
       "codigo":"CLL-2",
       "precio": 6990,
       "stock": 546,
-      "imagen": "/imagenes/70.Cerrojo_llave_seguro_3.webp"
+      "imagen": "70.Cerrojo_llave_seguro_3.webp"
     }
   ],
      "CERRADURA_MUEBLE":[
@@ -844,7 +844,7 @@
       "codigo":"CRM-1",
       "precio": 5990,
       "stock": 400,
-      "imagen": "/imagenes/71.Chapa_mueble_1.webp"
+      "imagen": "71.Chapa_mueble_1.webp"
     },
     {
       "id": 2,
@@ -853,7 +853,7 @@
       "codigo":"CRM-2",
       "precio": 5990,
       "stock": 450,
-      "imagen": "/imagenes/72.Chapa_mueble_2.webp"
+      "imagen": "72.Chapa_mueble_2.webp"
     },
      {
       "id": 3,
@@ -862,7 +862,7 @@
       "codigo":"CRM-3",
       "precio": 5990,
       "stock": 550,
-      "imagen": "/imagenes/73.Chapa_mueble_3.webp"
+      "imagen": "73.Chapa_mueble_3.webp"
     }
   ]
 },
@@ -877,7 +877,7 @@
       "codigo":"CD-CRT",
       "precio": 2000,
       "stock": 100,
-      "imagen": "/imagenes/74.Disco_corte.webp"
+      "imagen": "74.Disco_corte.webp"
     },
      {
       "id": 2,
@@ -886,7 +886,7 @@
       "codigo":"CD-DEB",
       "precio": 3000,
       "stock":  100,
-      "imagen": "/imagenes/75.Disco_desbaste.webp"
+      "imagen": "75.Disco_desbaste.webp"
     },
       {
       "id": 3,
@@ -895,7 +895,7 @@
       "codigo":"CD-DCF",
       "precio": 3000,
       "stock": 100,
-      "imagen": "/imagenes/76.Disco_fino_corte.webp"
+      "imagen": "76.Disco_fino_corte.webp"
     },
      {
       "id": 4,
@@ -904,7 +904,7 @@
       "codigo":"DC-FPM1",
       "precio": 15990,
       "stock": 100,
-      "imagen": "/imagenes/77.Disco_flap_madera.webp"
+      "imagen": "77.Disco_flap_madera.webp"
     },
       {
       "id": 5,
@@ -913,7 +913,7 @@
       "codigo":"DC-FPM2",
       "precio": 30000,
       "stock": 100,
-      "imagen": "/imagenes/78.Disco_flap_metal.webp"
+      "imagen": "78.Disco_flap_metal.webp"
     },
       {
       "id": 6,
@@ -922,7 +922,7 @@
       "codigo":"DC-FPM2",
       "precio": 2400,
       "stock": 100,
-      "imagen": "/imagenes/79.Disco_removedor.webp"
+      "imagen": "79.Disco_removedor.webp"
     },
        {
       "id": 7,
@@ -931,7 +931,7 @@
       "codigo":"DC-TDR",
       "precio": 4000,
       "stock": 100,
-      "imagen": "/imagenes/80.Disco_goma_taladro.webp"
+      "imagen": "80.Disco_goma_taladro.webp"
     },
       {
       "id": 8,
@@ -940,7 +940,7 @@
       "codigo":"DC-TDR",
       "precio": 4500,
       "stock": 100,
-      "imagen": "/imagenes/81.Disco_lija_velcro.webp"
+      "imagen": "81.Disco_lija_velcro.webp"
     },
     {
       "id": 9,
@@ -949,7 +949,7 @@
       "codigo":"DP-12",
       "precio": 4500,
       "stock": 100,
-      "imagen": "/imagenes/82.Disco_pulir.webp"
+      "imagen": "82.Disco_pulir.webp"
     },
     {
       "id": 10,
@@ -958,7 +958,7 @@
       "codigo":"DS-TDR",
       "precio": 5500,
       "stock": 100,
-      "imagen": "/imagenes/82.Disco_sierra_madera.webp"
+      "imagen": "83.Disco_sierra_madera.webp"
     }
     ]
 },
@@ -972,7 +972,7 @@
       "codigo":"DMMC-M",
       "precio": 30000,
       "stock": 550,
-      "imagen": "/imagenes/84.Ducha_marsella.webp"
+      "imagen": "84.Ducha_marsella.webp"
     },
      {
       "id": 2,
@@ -981,7 +981,7 @@
       "codigo":"DMMC-N",
       "precio": 30000,
       "stock": 550,
-      "imagen": "/imagenes/85.Ducha_napoles.webp"
+      "imagen": "85.Ducha_napoles.webp"
     },
       {
       "id": 3,
@@ -990,7 +990,7 @@
       "codigo":"DMMC-p",
       "precio": 30000,
       "stock": 550,
-      "imagen": "/imagenes/86.Ducha_priego.webp"
+      "imagen": "86.Ducha_priego.webp"
     }
   ]
 }
