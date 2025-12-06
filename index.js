@@ -1,20 +1,16 @@
 const express = require('express');
-const path = require('path');
+const productosRoutes = require('./src/router/productosRutes.js');
+
 const app = express();
+const port = 3000; 
 
-// Cargar el JSON
-const productos = require(path.join(__dirname, 'data', 'productos.json'));
 
-// Servir la carpeta 'public' (para acceder a las imágenes)
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.json());
 
-// Endpoint que devuelve el JSON completo
-app.get('/productos', (req, res) => {
-  res.json(productos);
-});
+app.use('/api/productos', productosRoutes);
 
-// Iniciar el servidor
-const PORT = 3000;
-app.listen(PORT, () => {
-  console.log(`✅ Servidor corriendo en http://localhost:${PORT}`);
-});
+
+// iniciar el servidor
+app.listen(port, ()=>{
+    console.log("Servidor iniciado en http://localhost:" + port);
+})
