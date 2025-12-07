@@ -19,6 +19,17 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/api/productos', productosRoutes);
 
 
+// Ruta para la vista principal
+app.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname, 'src/view/index.html'));
+});
+
+// Ruta para otra vista
+app.get('/productos', (req, res) => {
+    res.sendFile(path.join(__dirname, 'src/view/productos.html'));
+});
+
+
 // iniciar el servidor
 app.listen(port, ()=>{
     console.log("Servidor iniciado en http://localhost:" + port);
