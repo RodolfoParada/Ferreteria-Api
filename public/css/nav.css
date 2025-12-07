@@ -1,3 +1,10 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+
+}
+
 
 nav{
     position: fixed;
@@ -5,46 +12,45 @@ nav{
     top: 0;
     left: 0;
     right: 0;
-
-     
 }
+
 nav.contenedor{
-  width: 100%;
-  height: 50%;
-  overflow: hidden;
+  max-width: 100%;
+  height: -50px;
+  overflow: visible;
   display: inline-block;
+  background-color: #F6F7F7; /* El color de fondo es mejor aquí */
 
 }
 
 nav ul {
+    display: flex;
     list-style-type: none; 
     padding: 0; 
     margin: 0;
-    overflow: hidden; 
-    background-color: #F6F7F7; /* El color de fondo es mejor aquí */
-    
+    overflow: hidden;     
     /* PROPIEDADES DE FLEXBOX PARA ALINEAR A LA DERECHA */
-    display: flex; /* Convierte el UL en un contenedor flexible */
     /* justify-content: flex-end;  */
-
-    gap:15px;
+    gap:0px; 
+    margin-right: 100px;
 }
 
-.menu{
-   
+.menu{  
     display: flex;
-    /* Esto centra todos los elementos LI verticalmente dentro del contenedor UL */
     align-items: center; 
+    justify-content: space-between; /* 🔥 ESTO MUEVE LA UL A LA DERECHA */
+    width: 100%;
+    
 }
+
 
 
 .menu li{
     /* Asegura que no haya márgenes extraños */
     margin: 0; 
     padding: 0;
-    justify-content: space-between;
-    /* Esto ayuda a alinear los elementos dentro del li */
-    vertical-align: middle;
+    
+   
 }
 
 .menu li a {
@@ -57,30 +63,103 @@ nav ul {
     background-color: #F6F7F7;
     border: 2px solid transparent;
     padding: 5px 10px;
-    margin-top: 25px;
-
-          
-  
+    margin-top: 10px;
 }
 
 .menu li a:hover {
-     /* Cambia el color de fondo para indicar que el elemento es interactivo */
-    /* color: #E57044; ; naranjo*/
-    /* color: #A8A7A8; gris*/
-    /* color: #E57044;  */
+  
     color: white;
     border: 2px solid #1A4C6E;
     border-radius: 25px;
     background-color: #1A4C6E;
-    padding: 5px 10px; 
+}
+
+.logo{
+ width: 10%;
+    height: auto;
 }
 
 
-img{
-    display: absolute;
-    margin-right: 1020px;
-    width: 10%;
-    height:10%;  
+/* Nuevo estilo: Icono de hamburguesa */
+.hamburguesa {
+    /* Por defecto, OCULTO en escritorio */
+    display: none; 
+    font-size: 30px; /* Tamaño del icono */
+    cursor: pointer;
+    color: #1A4C6E;
+    /* Asegura que esté en el mismo nivel que el logo */
+    align-self: center; 
+    padding: 10px;
 }
 
+/* =============================
+   RESPONSIVE — PANTALLAS MEDIANAS
+   ============================= */
+@media (max-width: 1024px) {
 
+    .logo {
+        width: 120px;
+    }
+
+    nav ul {
+        gap: 10px;
+    }
+
+    .menu li a {
+        padding: 5px 8px;
+        font-size: 14px;
+    }
+}
+
+/* =============================
+   RESPONSIVE — HAMBURGUESA 768px
+   ============================= */
+
+@media (max-width: 768px) {
+
+    /* Mostrar hamburguesa */
+    .hamburguesa {
+        display: block !important;
+        z-index: 9999;
+    }
+
+    /* Asegura que el menú no desaparezca por flex */
+    .menu {
+        justify-content: space-between !important;
+        width: 100%;
+    }
+
+    /* UL pasa de horizontal a vertical */
+    nav ul {
+        position: absolute;
+        top: 70px;
+        right: 0;
+        width: 100%;
+        background-color: #F6F7F7;
+        flex-direction: column;
+        align-items: center;
+        display: none; /* Oculto por defecto */
+        border-top: 1px solid #ddd;
+        padding-bottom: 10px;
+    }
+
+    /* Cuando el checkbox esté activado, mostramos el menú */
+    #menu-toggle:checked ~ ul {
+        display: flex !important;
+    }
+
+    nav ul li {
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+        border-bottom: 1px solid #ccc;
+    }
+
+    nav ul li:last-child {
+        border-bottom: none;
+    }
+
+    .logo {
+        width: 110px;
+    }
+}

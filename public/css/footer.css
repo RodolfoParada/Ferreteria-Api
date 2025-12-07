@@ -107,3 +107,57 @@
     border-color: #1A4C6E;
     color: white;
 }
+
+/* Media Query para pantallas pequeñas (máximo 768px) */
+@media (max-width: 768px) {
+    
+    /* 1. Cambio en el Contenedor Principal */
+    /* De 2 columnas (1fr 3fr) a 1 sola columna. */
+    .contenedor {
+        display: block; /* Cambiamos de grid a block para apilarlos */
+        /* Opcional: grid-template-columns: 1fr; */
+        gap: 0;
+        text-align: center; /* Centramos el contenido dentro del contenedor */
+    }
+
+    /* 2. Ajuste de la Imagen */
+    /* La centramos y le damos un tamaño adecuado para el móvil */
+    .imagen {
+        margin-bottom: 20px;
+    }
+
+    .imagen .img-footer {
+        width: 150px; /* Tamaño fijo para que no sea demasiado grande */
+        height: auto;
+        margin: 0 auto; /* Centramos la imagen */
+    }
+
+    /* 3. Ajuste de las Listas de Enlaces */
+    /* De 3 columnas a apiladas o en una fila simple y centradas */
+    .listas-wrapper {
+        flex-direction: column; /* Apilamos las listas una encima de la otra */
+        align-items: center; /* Centramos las listas en el centro */
+        gap: 0; /* Removemos el espacio extra */
+    }
+
+    .lista-columna {
+        /* Ocupan todo el ancho, pero con un max-width para que no se estiren demasiado */
+        flex: none; /* Desactivamos el flex: 1 */
+        width: 100%;
+        max-width: 300px;
+        padding: 5px 0;
+        text-align: center; /* Centramos el texto de los títulos */
+        margin-bottom: 10px; /* Separación entre las listas */
+        border-bottom: 1px solid #ccc; /* Separador visual sutil */
+    }
+    
+    .lista-columna:last-child {
+        border-bottom: none; /* Quitamos el separador de la última lista */
+    }
+
+    /* 4. Ajuste de las Iconos y Pagos */
+    /* Ya están centrados, pero aseguramos el margen */
+    .icono-pagos, .iconos-redes {
+        margin-top: 20px;
+    }
+}
