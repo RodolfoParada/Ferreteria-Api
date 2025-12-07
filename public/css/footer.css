@@ -1,5 +1,109 @@
-footer{
-    text-align: center; 
-    padding: 20px; 
-    background: #eee;
+ footer{
+    position: fixed;
+
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    text-align: center;
+    padding: 20px;
+    background: hsl(0, 0%, 93%);
+    color: #1A4C6E; 
+} 
+
+
+.contenedor{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 15px;
+    margin: 0 auto;
+  
+
+}
+
+.imagen .img-footer {
+    /* Hace que la imagen ocupe todo el espacio de su div */
+    margin: 0px;
+    width: 30%;
+    height: 100%;
+    justify-content: center;
+
+    
+}
+
+
+
+.listas-wrapper {
+    display: flex; /* Usamos Flexbox para distribuir las 3 listas dentro de este div */
+    gap: 15px; /* Espacio entre las listas individuales */
+   
+    
+}
+
+.lista-columna {
+    list-style: none; /* Elimina los puntos o viñetas por defecto */
+    padding: 15;
+    margin: 0;
+    /* Las hace ocupar espacio igual dentro del flexbox */
+    flex: 1;
+    padding: 10px;
+}
+
+.lista-columna li {
+    margin-bottom: 5px;
+ 
+}
+
+
+.icono-pagos {
+    max-width: 150px;   /* controla el ancho máximo */
+    width: 100%;        /* se adapta al contenedor */
+    height: auto;       /* mantiene proporción */
+    display: block;
+    margin: 0 auto;     /* la centra */
+}
+
+
+.iconos-redes {
+    text-align: center;  /* centra el contenido */
+     list-style-type: none; 
+     margin-top: 10px;
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+    gap: 15px;        /* espacio entre iconos */
+    margin-top: 10px; /* separa el texto de los iconos */
+}
+
+.redes i {
+    font-size: 24px;   /* tamaño de iconos */
+    cursor: pointer;
+}
+
+.listas-wrapper li:hover {
+     /* Cambia el color de fondo para indicar que el elemento es interactivo */
+    /* color: #E57044; ; naranjo*/
+    /* color: #A8A7A8; gris*/
+    /* color: #E57044;  */
+    color: white;
+    border: 2px solid #1A4C6E;
+    border-radius: 25px;
+    background-color: #1A4C6E;
+    /* padding: 5px 10px;  */
+}
+
+/* Estilo base del link */
+.lista-columna a {
+    display: inline-block;
+     border: 2px solid transparent;  
+}
+
+/* Hover SOLO al link */
+.lista-columna a:hover {
+    background-color: #1A4C6E;
+    border-radius: 25px;
+    border-color: #1A4C6E;
+    color: white;
 }
