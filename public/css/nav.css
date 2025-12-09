@@ -16,10 +16,13 @@ nav{
 
 nav.contenedor{
   max-width: 100%;
-  height: -50px;
+  height: 70px;
   overflow: visible;
   display: inline-block;
   background-color: #F6F7F7; /* El color de fondo es mejor aquí */
+  max-width: 1200% !important;
+  margin: 0 auto;
+    
 
 }
 
@@ -39,7 +42,7 @@ nav ul {
     display: flex;
     align-items: center; 
     justify-content: space-between; /* 🔥 ESTO MUEVE LA UL A LA DERECHA */
-    width: 100%;
+    max-width: 100%;
     
 }
 
@@ -74,16 +77,20 @@ nav ul {
     background-color: #1A4C6E;
 }
 
+
 .logo{
- width: 10%;
-    height: auto;
+ width: 100px;
+    height: 70px;
 }
+
+
 
 
 /* Nuevo estilo: Icono de hamburguesa */
 .hamburguesa {
     /* Por defecto, OCULTO en escritorio */
-    display: none; 
+    display: none;
+    max-width: auto; 
     font-size: 30px; /* Tamaño del icono */
     cursor: pointer;
     color: #1A4C6E;
@@ -97,18 +104,45 @@ nav ul {
    ============================= */
 @media (max-width: 1024px) {
 
-    .logo {
-        width: 120px;
+   /* muestra la hamburguesa */
+    .hamburguesa {
+        display: block; /* Ahora es visible en este rango */
+        z-index: 9999;
     }
 
-    nav ul {
-        gap: 10px;
+    .menu{  
+    display: flex;
+    align-items: center; 
+    
+ 
+    
+}
+     nav ul {
+        position: absolute;
+        background-color: #F6F7F7;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        display: none; /* Oculto por defecto */
+        padding-bottom: 10px;
+      
     }
 
-    .menu li a {
-        padding: 5px 8px;
-        font-size: 14px;
+
+     /* Cuando el checkbox esté activado, mostramos el menú */
+    #menu-toggle:checked ~ ul {
+        display: flex !important;
+        max-width: 100%;
     }
+.logo{
+ width: 100px;
+    height: 70px;
+}
+
+
+   
 }
 
 /* =============================
@@ -123,43 +157,39 @@ nav ul {
         z-index: 9999;
     }
 
-    /* Asegura que el menú no desaparezca por flex */
-    .menu {
-        justify-content: space-between !important;
-        width: 100%;
-    }
+
 
     /* UL pasa de horizontal a vertical */
     nav ul {
         position: absolute;
-        top: 70px;
-        right: 0;
-        width: 100%;
         background-color: #F6F7F7;
+        top: 70px;
+        left: 0;
+        width: 100%;
         flex-direction: column;
         align-items: center;
         display: none; /* Oculto por defecto */
-        border-top: 1px solid #ddd;
         padding-bottom: 10px;
+      
     }
 
     /* Cuando el checkbox esté activado, mostramos el menú */
     #menu-toggle:checked ~ ul {
         display: flex !important;
+        max-width: 100%;
     }
 
     nav ul li {
-        width: 100%;
         text-align: center;
         padding: 10px 0;
-        border-bottom: 1px solid #ccc;
+
+     
     }
 
-    nav ul li:last-child {
-        border-bottom: none;
-    }
+    .logo{
+  width: 100px;
+    height: 70px;
+}
 
-    .logo {
-        width: 110px;
-    }
+
 }

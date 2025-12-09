@@ -27,6 +27,7 @@
     width: 30%;
     height: 100%;
     justify-content: center;
+    border-radius: 25%;
 
     
 }
@@ -125,7 +126,7 @@
     .imagen {
         margin-bottom: 20px;
     }
-
+z
     .imagen .img-footer {
         width: 150px; /* Tamaño fijo para que no sea demasiado grande */
         height: auto;
