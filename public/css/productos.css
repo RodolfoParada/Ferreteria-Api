@@ -1,0 +1,96 @@
+/* Estilo del contenedor principal para que las cards se muestren en filas */
+#lista-productos {
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr  1fr 1fr 1fr;
+     gap: 10px; /* Espacio entre las cards */
+     padding: 10px;
+     justify-items: center;  
+     
+}
+
+/* 🚀 Estilo de la Card Individual */
+.producto-card {
+    /* Define el tamaño de la tarjeta */
+    width: 300px; 
+    
+    /* Propiedades visuales de la tarjeta */
+    border: 1px solid #ddd;
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    overflow: hidden; /* Asegura que la imagen respete el border-radius */
+    transition: transform 0.2s; /* Efecto al pasar el ratón */
+    background-color: #fff;
+}
+
+/* Efecto hover (opcional) */
+.producto-card:hover {
+    transform: translateY(-5px); /* Se levanta ligeramente */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo de la Imagen */
+.card-imagen {
+    width: 100%; /* La imagen ocupa todo el ancho de la card */
+    height: 200px;
+    object-fit: cover; /* Recorta la imagen para que llene el espacio sin distorsionarse */
+    border-bottom: 1px solid #eee;
+}
+
+/* Estilo del contenido de texto */
+.card-cuerpo {
+    padding: 15px;
+}
+
+.card-titulo {
+    margin-top: 0;
+    font-size: 1.4em;
+    color: #333;
+}
+
+.card-precio {
+    font-size: 1.5em;
+    color: #747375; /* Color de énfasis */
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card-descripcion {
+    font-size: 0.9em;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.card-detalles p {
+    margin: 3px 0;
+    font-size: 0.85em;
+    color: #888;
+}
+
+.card-boton{
+    display: flex;
+    justify-content: center;
+
+}
+.boton{
+    background-color:#B95A37;
+    padding: 5px;
+    margin: 10px;
+    color: white;
+    border-radius: 15px;
+    border: 2px solid #B95A37; 
+    height: 200%;
+    width: 30%;
+
+}
+
+.boton:hover{
+    background-color: #1A4C6E;
+    padding: 5px;
+    margin: 10px;
+    color: white;
+    border-radius: 15px;
+    border: 2px solid #1A4C6E; 
+   
+
+
+}
