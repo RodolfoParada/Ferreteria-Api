@@ -32,7 +32,7 @@ async function cargarProductos() {
                     
                     <div class="card-detalles">
                         <p>Código: ${prod.codigo}</p>
-                        <p>Existencias: ${prod.existencias}</p>
+                        <p>Existencias: ${prod.stock}</p>
                         <p>Categoría: ${prod.categoria}</p>
                     </div>
                     <div class="card-boton"> 

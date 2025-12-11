@@ -1,6 +1,6 @@
 {
-  "aldaperc": {
-  "ALDABA_LIOI": [
+  "aldabas": {
+  "ALDABAS": [
     {
       "id": 1,
       "nombre": "Aldaba 11/2",
@@ -8,7 +8,8 @@
       "codigo":"ALD112J",
       "precio": 300,
       "stock": 20000,
-      "imagen": "1.Aldaba_l.webp"
+      "imagen": "1.Aldaba_l.webp",
+      "categoria": "Aldabas"
     },
     {
       "id": 2,
@@ -17,7 +18,8 @@
       "codigo":"ALD2J",
       "precio": 400,
       "stock": 350000,
-      "imagen": "1.Aldaba_l.webp"
+      "imagen": "1.Aldaba_l.webp",
+      "categoria": "Aldabas"
     },
     {
       "id": 3,
@@ -26,10 +28,14 @@
       "codigo":"ALD212J",
       "precio": 500,
       "stock": 100000,
-      "imagen": "1.Aldaba_l.webp"
+      "imagen": "1.Aldaba_l.webp",
+      "categoria": "Aldabas"
     }
-  ],
-  "TOPE_PUERTA_CILINDRICO": [
+  ]
+},
+
+"tope_puerta":{
+   "TOPE_PUERTA_CILINDRICO": [
     {
       "id": 1,
       "nombre": "Tope Puerta - B",
@@ -38,7 +44,8 @@
       "color": "Blanco",
       "precio": 100,
       "stock": 700000,
-      "imagen": "2.Tope_puerta_blanco.webp"
+      "imagen": "2.Tope_puerta_blanco.webp",
+      "categoria": "Tope de Puerta"
     },
     {
       "id": 2,
@@ -48,7 +55,8 @@
       "codigo":"TP-N",
       "precio": 100,
       "stock": 50000,
-      "imagen": "2.Tope_puerta_negro.webp"
+      "imagen": "2.Tope_puerta_negro.webp",
+      "categoria": "Tope de Puerta"
     },
     {
       "id": 3,
@@ -58,10 +66,14 @@
       "color": "Café",
       "precio": 100,
       "stock": 21500,
-      "imagen": "2.Tope_de_puerta_cafe.webp"
+      "imagen": "2.Tope_de_puerta_cafe.webp",
+      "categoria": "Tope de Puerta"
     }
-  ],
-   "RETEN_RODILLO":[
+  ]
+
+},
+"reten":{
+ "TIPOS_RETEN":[
     {
       "id": 1,
       "nombre": "Retén Rodillo",
@@ -69,29 +81,33 @@
       "codigo":"RETRAOU",
       "precio": 750,
       "stock": 90000,
-      "imagen": "3.Reten_rodillo.webp"
-    }
-  ],
-  "RETEN_MAGNETICO":[
+      "imagen": "3.Reten_rodillo.webp",
+      "categoria": "Reten"
+    },
     {
-      "id": 1,
+      "id": 2,
       "nombre": "Retén Magnetico - B",
       "descripcion": "Blanco",
       "codigo":"RETB",
       "precio": 300,
       "stock": 20000,
-      "imagen": "4.Reten_magnetico_blanco.webp"
+      "imagen": "4.Reten_magnetico_blanco.webp",
+      "categoria": "Reten"
     },
     {
-      "id": 2,
+      "id": 3,
       "nombre": "Retén Magnetico - C",
       "descripcion": "Café",
       "codigo":"RETC",
       "precio": 400,
       "stock": 350000,
-      "imagen": "4.Reten_magnetico_café.webp"
+      "imagen": "4.Reten_magnetico_café.webp",
+      "categoria": "Reten"
     }
-  ],
+  ]
+},
+
+"visores":{
   "VISOR_DE_PUERTA":[
     {
       "id": 1,
@@ -100,14 +116,14 @@
       "codigo":"VISPEZ",
       "precio": 500,
       "stock": 190000,
-      "imagen": "5.Ojo_de_pez.webp"
+      "imagen": "5.Ojo_de_pez.webp",
+      "categoria": "Visor de Puerta"
     }
   ]
 },
 
-
-  "alicates": {
-  "ALICATE_UNIVERSAL": [
+"alicates":{
+ "ALICATES": [
     {
       "id": 1,
       "nombre": "Alicate 6''",
@@ -115,7 +131,8 @@
       "codigo":"ALIU6U",
       "precio": 1000,
       "stock": 1000,
-      "imagen": "6.Alicate_universal.webp"
+      "imagen": "6.Alicate_universal.webp",
+      "categoria": "Alicate"
     },
     {
       "id": 2,
@@ -124,7 +141,8 @@
       "codigo":"ALIU7U",
       "precio": 1000,
       "stock": 1000,
-      "imagen": "6.Alicate_universal.webp"
+      "imagen": "6.Alicate_universal.webp",
+      "categoria": "Alicate"
     },
     {
       "id": 3,
@@ -133,76 +151,72 @@
       "codigo":"ALIU8U",
       "precio": 1000,
       "stock": 1000,
-      "imagen": "6.Alicate_universal.webp"
-    }
-  ],
-   "ALICATE_CORTE":[
-     {
-      "id": 1,
+      "imagen": "6.Alicate_universal.webp",
+      "categoria": "Alicate"
+    },
+    {
+      "id": 4,
       "nombre": "Alicate Corte",
       "descripcion": "(ALC6D15) 6'' UYUS (ALC206",
       "codigo":"PEL65U",
       "precio": 1200,
       "stock": 100000,
-      "imagen": "7.Alicate_corte.webp"
-    }
-  ],
-   "ALICATE_PUNTA":[
-     {
-      "id": 1,
+      "imagen": "7.Alicate_corte.webp",
+      "categoria": "Alicate"
+    },
+       {
+      "id": 5,
       "nombre": "Alicate Punta",
       "descripcion": "ALIP6U6 UYUS (ALP6D15-ALP206)",
       "codigo":"PEL65U",
       "precio": 1200,
       "stock": 100000,
-      "imagen": "8.Alicate_punta.webp"
-    }
-  ],
-   "PELACABLE":[
-     {
-      "id": 1,
+      "imagen": "8.Alicate_punta.webp",
+      "categoria": "Alicate"
+    },
+    {
+      "id": 6,
       "nombre": "Pelacable",
       "descripcion": "6.5 UYUS 0.6-26MM (PEL265)",
       "codigo":"PEL65U",
       "precio": 1800,
       "stock": 100000,
-      "imagen": "9.Alicate_pelacable.webp"
-    }
-  ],
-   "ALICATE_CORTANTE":[
-     {
-      "id": 1,
+      "imagen": "9.Alicate_pelacable.webp",
+      "categoria": "Alicate"
+    },
+    {
+      "id": 7,
       "nombre": "Alicate Cortante",
       "descripcion": "(ALC345P)4.5'' UYUS",
       "codigo":"ALIT4P",
       "precio": 950,
       "stock": 500,
-      "imagen": "10.Alicate_cortante.webp"
-    }
-  ],
-   "ALICATE_DE_PUNTA":[
-     {
-      "id": 1,
+      "imagen": "10.Alicate_cortante.webp",
+      "categoria": "Alicate"
+    },
+    {
+      "id": 8,
       "nombre": "Alicate Punta",
       "descripcion": "(ALP345P)4.5 UYUS",
       "codigo":"ALIP4P",
       "precio": 1050,
       "stock": 500,
-      "imagen": "11.Alicate_punta.webp"
-    }
-  ],
-   "ALICATE_REDONDO":[
-     {
+      "imagen": "11.Alicate_punta.webp",
+      "categoria": "Alicate"
+    },
+         {
       "id": 1,
       "nombre": "Alicate Redondo",
       "descripcion": "(ALR345P) PROF 4.5",
       "codigo":"ALIR4P",
       "precio": 950,
       "stock": 500,
-      "imagen": "12.Alicate_redondo.webp"
+      "imagen": "12.Alicate_redondo.webp",
+      "categoria": "Alicate"
     }
   ]
- },
+},
+
 
 
   "alcayatas": {
@@ -214,30 +228,24 @@
       "codigo":"ALT35",
       "precio": 15000,
       "stock": 12000,
-      "imagen": "13.Alcayata_rustica.webp"
+      "imagen": "13.Alcayata_rustica.webp",
+      "categoria": "Alcayata"
     },
     {
       "id": 2,
-      "nombre": "Alcayata7",
+      "nombre": "Alcayata 7",
       "descripcion": "3x7",
       "codigo":"ALT7U",
       "precio": 7000,
       "stock": 500,
-      "imagen": "13.Alcayata_rustica.webp"
+      "imagen": "13.Alcayata_rustica.webp",
+      "categoria": "Alcayata"
     }
-  ],
-   "SET_PICAPORTE_JUMBO":[
-     {
-      "id": 1,
-      "nombre": "Set Picaporte Jumbo",
-      "descripcion": "10'' UYUS (PIA001)",
-      "codigo":"DPIPOJ36",
-      "precio": 4000,
-      "stock": 999,
-      "imagen": "14.Set_picaporte_jumbo.webp"
-    }
-  ],
-   "MANILLA_RUSTICA":[
+  ]
+ },
+
+ "manillas":{
+   "MANILLAS":[
      {
       "id": 1,
       "nombre": "Manilla Rustica 1",
@@ -245,7 +253,8 @@
       "codigo":"MANIRUB",
       "precio": 3000,
       "stock": 200,
-      "imagen": "15.Manilla_rustica_1.webp"
+      "imagen": "15.Manilla_rustica_1.webp",
+      "categoria": "Manillas"
     },
     {
       "id": 2,
@@ -254,14 +263,31 @@
       "codigo":"ANIRU",
       "precio": 8000,
       "stock": 400,
-      "imagen": "16.Manilla_rustica_2.webp"
+      "imagen": "16.Manilla_rustica_2.webp",
+      "categoria": "Manillas"
     }
   ]
  },
 
 
- "agricola": {
-  "HORQUETA_PASTO": [
+"picaporte":{
+  "PICAPORTE":[
+     {
+      "id": 1,
+      "nombre": "Set Picaporte Jumbo",
+      "descripcion": "10'' UYUS (PIA001)",
+      "codigo":"DPIPOJ36",
+      "precio": 4000,
+      "stock": 999,
+      "imagen": "14.Set_picaporte_jumbo.webp",
+      "categoria": "Picaporte"
+    }
+  ]
+},
+
+
+ "jardín": {
+  "JARDÍN": [
     {
       "id": 1,
       "nombre": "Horqueta Pasto",
@@ -269,129 +295,192 @@
       "codigo":"HORRAM101",
       "precio": 5000,
       "stock": 2000,
-      "imagen": "17.Horqueta_pasto.webp"
-    }
-  ],
-   "ROZON_TRAMONTINA":[
+      "imagen": "17.Horqueta_pasto.webp",
+      "categoria": "Jardín"
+
+    },
      {
-      "id": 1,
+      "id": 2,
       "nombre": "Rozon Tramontina",
       "descripcion": "TRAMONTINA AMBIDIESTRO(77600-115)",
       "codigo":"RATA7715",
       "precio": 9000,
       "stock": 79,
-      "imagen": "18.Rozon_tramontina.webp"
-    }
-  ],
-   "ECHONA_DENTADA":[
+      "imagen": "18.Rozon_tramontina.webp",
+      "categoria": "Jardín"
+    },
      {
-      "id": 1,
+      "id": 3,
       "nombre": "Echona Dentada",
       "descripcion": "La Pajarita(015-018-025-030)",
       "codigo":"EPAD123",
       "precio": 6500,
       "stock": 343,
-      "imagen": "19.Echona_dentada.webp"
-    }
-  ],
-    "PICOTA_UYUS":[
+      "imagen": "19.Echona_dentada.webp",
+      "categoria": "Jardín"
+    },
      {
-      "id": 1,
+      "id": 4,
       "nombre": "Picota uyus",
       "descripcion": "Mango madera (OMAPI000)",
       "codigo":"PITAUYUS",
       "precio": 16500,
       "stock": 700,
-      "imagen": "20.Picota_uyus.webp"
+      "imagen": "20.Picota_uyus.webp",
+      "categoria": "Jardín"
     },
      {
-      "id": 2,
+      "id": 5,
       "nombre": "Picota sin mango",
       "descripcion": "Picota sin mango",
       "codigo":"PC402Y",
       "precio": 8500,
       "stock": 300,
-      "imagen": "21.Picota_sin_mango.webp"
-    }
-  ],
-    "AZADON":[
+      "imagen": "21.Picota_sin_mango.webp",
+      "categoria": "Jardín"
+    },
      {
-      "id": 1,
+      "id": 6,
       "nombre": "Azadon_1",
       "descripcion": "2 LB (AZD2Y)",
       "codigo":"AZAD2",
       "precio": 20000,
       "stock": 600,
-      "imagen": "22.Azadon_sin_mango.webp"
+      "imagen": "22.Azadon_sin_mango.webp",
+      "categoria": "Jardín"
     },
     {
-      "id": 2,
+      "id": 7,
       "nombre": "Azadon_2",
       "descripcion": "3 LB (AZD03Y)",
       "codigo":"AZAD3",
       "precio": 14000,
       "stock": 1350,
-      "imagen": "23.Azadon_con_mango.webp"
+      "imagen": "23.Azadon_con_mango.webp",
+      "categoria": "Jardín"
     }      
   ]
  },
 
-
-  "auto": {
-  "ACERO_LIQUIDO_REX": [
-    {
+ "pegamento":{
+  "PEGAMENTO":[
+   {
       "id": 1,
       "nombre": "Acero Líquido Rex",
       "descripcion": "28grs+28gr",
       "codigo":"PTPA09",
       "precio": 2000,
       "stock": 7000,
-      "imagen": "24.Acero_liquido_rex.webp"
+      "imagen": "24.Acero_liquido_rex.webp",
+      "categoria": "Pegamento"
+    },
+    {
+      "id": 2,
+      "nombre": "Barra Silicona 1",
+      "descripcion": "5/16X12",
+      "codigo":"PASI39",
+      "precio": 7500,
+      "stock": 5000,
+      "imagen": "26.Barra_silicona_1.webp",
+      "categoria": "Pegamento"
+    },
+    {
+      "id": 3,
+      "nombre": "Barra Silicona 2",
+      "descripcion": "5/16X12",
+      "codigo":"SXRT",
+      "precio": 6500,
+      "stock": 5000,
+      "imagen": "27.Barra_silicona_2.webp",
+      "categoria": "Pegamento"
     }
-  ],
-   "GRASA_CONSISTENTE":[
-     {
+
+ ]
+ },
+
+ "auto":{
+  "AUTO":[
+    {
       "id": 1,
       "nombre": "Grasa Consistente",
       "descripcion": "POTE 250 GRS",
       "codigo":"PTCONSIS",
       "precio": 9000,
       "stock": 7900,
-      "imagen": "25.Grasa_consistente.webp"
-    }
-  ],
-   "BARRA_SILICONA":[
-     {
-      "id": 1,
-      "nombre": "Barra Silicona 1",
-      "descripcion": "5/16X12",
-      "codigo":"PASI39",
-      "precio": 7500,
-      "stock": 5000,
-      "imagen": "26.Barra_silicona_1.webp"
+      "imagen": "25.Grasa_consistente.webp",
+      "categoria": "Auto"
     },
     {
       "id": 2,
-      "nombre": "Barra Silicona 2",
-      "descripcion": "5/16X12",
-      "codigo":"SXRT",
-      "precio": 6500,
-      "stock": 5000,
-      "imagen": "27.Barra_silicona_2.webp"
-    }
-  ], 
-  "INFLA_Y_SELLA":[
-     {
-      "id": 1,
       "nombre": "Infla y Sella",
       "descripcion": "450 ml",
       "codigo":"ISELLA450",
       "precio": 8000,
       "stock": 1200,
-      "imagen": "28.Infla_y_sella.webp"
+      "imagen": "28.Infla_y_sella.webp",
+      "categoria": "Auto"
+    },
+     {
+      "id": 3,
+      "nombre": "Lubricante",
+      "descripcion": "155 Gl",
+      "codigo":"WD-40 Multiuso",
+      "precio": 3000,
+      "stock": 2000,
+      "imagen": "30.Lubricante.webp",
+      "categoria": "Auto"
+    },
+    {
+      "id": 4,
+      "nombre": "Renovador Neumático",
+      "descripcion": "SAPOLIO",
+      "codigo":"RENO77",
+      "precio": 6000,
+      "stock": 500,
+      "imagen": "31.Renovador_neumatico.webp",
+      "categoria": "Auto"
+    },
+    {
+      "id": 5,
+      "nombre": "Silicona Spray",
+      "descripcion": "Limpiador y protector",
+      "codigo":"LimSprayIL",
+      "precio": 4000,
+      "stock": 500,
+      "imagen": "32.Silicona_spray_auto.webp",
+      "categoria": "Auto"
+    },
+    {
+      "id": 6,
+      "nombre": "Llave cruz",
+      "descripcion":"Llave",
+      "codigo":"CR-12",
+      "precio": 8990,
+      "stock": 375,
+      "imagen": "43.Llave_cruz.webp",
+      "categoria": "Auto"
+    },
+    {
+      "id": 7,
+      "nombre": "Llave extension",
+      "descripcion":"Llave",
+      "codigo":"LEXT-11l",
+      "precio": 9025,
+      "stock": 380,
+      "imagen": "44.Llave_extension.webp",
+      "categoria": "Auto"
     }
-  ],
-  "lIMPIA_CONTACTO":[
+  ]    
+ },
+
+
+
+
+
+
+  "limpia_electrico": {
+
+  "lIMPIA_Electricos":[
      {
       "id": 1,
       "nombre": "Limpia Contacto",
@@ -399,116 +488,178 @@
       "codigo":"LIMCON300",
       "precio": 2000,
       "stock": 1000,
-      "imagen": "29.Limpia_contacto.webp"
-    }
-  ],
-   "LUBRICANTE":[
-     {
-      "id": 1,
-      "nombre": "Lubricante",
-      "descripcion": "155 Gl",
-      "codigo":"WD-40 Multiuso",
-      "precio": 3000,
-      "stock": 2000,
-      "imagen": "30.Lubricante.webp"
-    }
-  ],
-  "RENOVADOR_NEUMATICO":[
-     {
-      "id": 1,
-      "nombre": "Renovador Neumático",
-      "descripcion": "SAPOLIO",
-      "codigo":"RENO77",
-      "precio": 6000,
-      "stock": 500,
-      "imagen": "31.Renovador_neumatico.webp"
-    }
-  ],
-  "SILICONA_SPRAY":[
-     {
-      "id": 1,
-      "nombre": "Silicona Spray",
-      "descripcion": "Limpiador y protector",
-      "codigo":"LimSprayIL",
-      "precio": 4000,
-      "stock": 500,
-      "imagen": "32.Silicona_spray_auto.webp"
+      "imagen": "29.Limpia_contacto.webp",
+      "categoria": "Limpiador Electricos"
+      
     }
   ]
 },
 
 
-  "llaves": {
-  "LLAVE_ALEN": [
-    {
+"bicicletas":{
+  "Bicicletas":[
+     {
       "id": 1,
       "nombre": "Llave Alen",
       "descripcion": "juego de llaves 8 pizas",
       "codigo":"LLA8",
       "precio": 3000,
       "stock": 700,
-      "imagen": "33.Llave_alen.webp"
-    }
-  ],
-   "LLAVE_ESTRELLA":[
+      "imagen": "33.Llave_alen.webp",
+      "categoria": "Bicicleta"
+    },
      {
-      "id": 1,
+      "id": 2,
       "nombre": "Llave Estrella",
       "descripcion": "juego de llaves 10 pizas",
       "codigo":"SET10",
       "precio": 3000,
       "stock": 400,
-      "imagen": "34.Llave_estrella.webp"
-    }
-  ],
-   "CORTA_TURBO":[
+      "imagen": "34.Llave_estrella.webp",
+      "categoria": "Bicicleta"
+    },{
+      "id": 3,
+      "nombre": "Chichara",
+      "descripcion":"Llave",
+      "codigo":"CL11",
+      "precio": 9500,
+      "stock": 325,
+      "imagen": "42.Llave_crequi_chichara.webp",
+      "categoria": "Bicicleta"
+    },
      {
+      "id": 4,
+      "nombre": "Camara aro 20",
+      "descripcion": "Caramara bicicleta",
+      "codigo":"C-20",
+      "precio": 1500,
+      "stock": 717,
+      "imagen": "45.Camara_aro_20.webp",
+      "categoria": "Bicicleta"
+    },
+     {
+      "id": 5,
+      "nombre": "Camara aro 24",
+      "descripcion": "Caramara bicicleta",
+      "codigo":"C-24",
+      "precio": 1500,
+      "stock": 717,
+      "imagen": "46.Camara_aro_24.webp",
+      "categoria": "Bicicleta"
+    },
+      {
+      "id": 6,
+      "nombre": "Camara aro 26",
+      "descripcion": "Caramara bicicleta",
+      "codigo":"C-26",
+      "precio": 1500,
+      "stock": 717,
+      "imagen": "47.Camara_aro_26.webp",
+      "categoria": "Bicicleta"
+    },
+     {
+      "id": 7,
+      "nombre": "Forro aro 20",
+      "descripcion": "Forro aro 20",
+      "codigo":"FA-20",
+      "precio": 9900,
+      "stock": 200,
+      "imagen": "48.Forro_20.webp",
+      "categoria": "Bicicleta"
+    },
+    {
+      "id": 8,
+      "nombre": "Forro aro 24",
+      "descripcion": "Forro aro 24",
+      "codigo":"FA-24",
+      "precio": 9900,
+      "stock": 200,
+      "imagen": "49.Forro_24.webp",
+      "categoria": "Bicicleta"
+    },
+      {
+      "id": 9,
+      "nombre": "Forro aro 26",
+      "descripcion": "Forro aro 26",
+      "codigo":"FA-26",
+      "precio": 9900,
+      "stock": 200,
+      "imagen": "50.Forro_26.webp",
+      "categoria": "Bicicleta"
+    },
+     {
+      "id": 10,
+      "nombre": "Parche bicicleta",
+      "descripcion":"54x32mm",
+      "codigo":"PB-54",
+      "precio": 2000,
+      "stock": 100,
+      "imagen": "51.Parche_bicicleta.webp",
+       "categoria": "Bicicleta"
+    },
+    {
+      "id": 11,
+      "nombre": "Pegamento parche",
+      "descripcion":"pegamento para parches bicicletas",
+      "codigo":"PPB-43",
+      "precio": 3000,
+      "stock":  240,
+      "imagen": "52.Pegamento_bicicleta.webp",
+      "categoria": "Bicicleta"
+    },
+     {
+      "id": 12,
+      "nombre": "Bombin manual",
+      "descripcion":"bomin manual",
+      "codigo":"BM005",
+      "precio": 13990,
+      "stock": 475,
+      "imagen": "53.Bombin_manual.webp",
+      "categoria": "Bicicleta"
+    },
+    {
+      "id": 13,
+      "nombre": "Bombin con compresor",
+      "descripcion":"bomin con compresor",
+      "codigo":"BCC-19",
+      "precio": 23990,
+      "stock": 405,
+      "imagen": "54.Bombin_compresor.webp",
+      "categoria": "Bicicleta"
+    },
+     {
+      "id": 14,
+      "nombre": "Bombin mini bicicleta",
+      "descripcion":"bombin mini",
+      "codigo":"BMN-543",
+      "precio": 8990,
+      "stock": 11809,
+      "imagen": "55.Bombin_mini.webp",
+      "categoria": "Bicicleta"
+    }
+  ]
+},
+
+"cortador":{
+  "CORTADOR":[
+ {
       "id": 1,
       "nombre": "Corta Turbo",
       "descripcion":"Cortador",
       "codigo":"COTU",
       "precio": 7500,
       "stock": 5000,
-      "imagen": "35.Corta_turbo.webp"
+      "imagen": "35.Corta_turbo.webp",
+      "categoria": "Cortador"
     }
-  ],
-  "LLAVE_CREQUI_CHICHARA":[
-     {
-      "id": 1,
-      "nombre": "Chichara",
-      "descripcion":"Llave",
-      "codigo":"CL11",
-      "precio": 9500,
-      "stock": 325,
-      "imagen": "42.Llave_crequi_chichara.webp"
-    }
-  ],
-  "LLAVE_CRUZ":[
-     {
-      "id": 1,
-      "nombre": "Llave cruz",
-      "descripcion":"Llave",
-      "codigo":"CR-12",
-      "precio": 8990,
-      "stock": 375,
-      "imagen": "43.Llave_cruz.webp"
-    }
-  ],
-  "LLAVE_EXTENSION":[
-     {
-      "id": 1,
-      "nombre": "Llave extension",
-      "descripcion":"Llave",
-      "codigo":"LEXT-11l",
-      "precio": 9025,
-      "stock": 380,
-      "imagen": "44.Llave_extension.webp"
-    }
-  ]    
+
+  ]
 },
 
-"sierra": {
-  "ARCO_SIERRA": [
+
+
+"sierras": {
+  "SIERRAS": [
     {
       "id": 1,
       "nombre": "Arco sierra",
@@ -516,190 +667,76 @@
       "codigo":"SIEMO1",
       "precio": 13000,
       "stock": 1700,
-      "imagen": "36.Arco_sierra.webp"
-    }
-  ],
-   "ARCO_SIERRA_CROMADA":[
-     {
-      "id": 1,
+      "imagen": "36.Arco_sierra.webp",
+      "categoria": "Sierras"
+    },
+    {
+      "id": 2,
       "nombre": "Arco sierra cromada",
       "descripcion": "sierra y marco cromada",
       "codigo":"SMC12",
       "precio": 20000,
       "stock": 1400,
-      "imagen": "37.Arco_sierra_cromada.webp"
-    }
-  ],
-   "ARCO_SIERRA_NORMAL":[
-     {
-      "id": 1,
+      "imagen": "37.Arco_sierra_cromada.webp",
+      "categoria": "Sierras"
+    },
+    {
+      "id": 3,
       "nombre": "Arco sierra normal",
       "descripcion":"sierra normal con marco",
       "codigo":"MNM12",
       "precio": 15000,
       "stock": 7000,
-      "imagen": "38.Arco_sierra_normal.webp"
-    }
-  ],
-  "ARCO_SIERRA_ESCOLAR":[
-     {
-      "id": 1,
+      "imagen": "38.Arco_sierra_normal.webp",
+      "categoria": "Sierras"
+    },
+         {
+      "id": 4,
       "nombre": "Arco sierra escolar",
       "descripcion":"mardo escolar",
       "codigo":"MCJ01",
       "precio": 16000,
       "stock": 8000,
-      "imagen": "39.Arco_sierra_escolar.webp"
-    }
-  ], 
-    "HOJA_SIERRA_METAL":[
-     {
-      "id": 1,
+      "imagen": "39.Arco_sierra_escolar.webp",
+      "categoria": "Sierras"
+    },
+        {
+      "id": 5,
       "nombre": "Hoja sierra metal",
       "descripcion":"set hoja de sierra metal",
       "codigo":"HJSR",
       "precio": 16000,
       "stock": 8000,
-      "imagen": "40.Hoja_metal.webp"
-    }
-  ],  
-   "HOJA_SIERRA_MADERA":[
-     {
+      "imagen": "40.Hoja_metal.webp",
+      "categoria": "Sierras"
+    },
+    {
       "id": 1,
       "nombre": "Hoja sierra madera",
       "descripcion":"set hoja de sierra madera",
       "codigo":"HJSR",
       "precio": 16000,
       "stock": 8000,
-      "imagen": "41.Hoja_madera.webp"
+      "imagen": "41.Hoja_madera.webp",
+      "categoria": "Sierras"
     }
   ]
 },
 
-
-  "bicicleta": {
-  "CAMARA_BICICLETA": [
-    {
-      "id": 1,
-      "nombre": "Camara aro 20",
-      "descripcion": "Caramara bicicleta",
-      "codigo":"C-20",
-      "precio": 1500,
-      "stock": 717,
-      "imagen": "45.Camara_aro_20.webp"
-    },
-     {
-      "id": 2,
-      "nombre": "Camara aro 24",
-      "descripcion": "Caramara bicicleta",
-      "codigo":"C-24",
-      "precio": 1500,
-      "stock": 717,
-      "imagen": "46.Camara_aro_24.webp"
-    },
-      {
-      "id": 3,
-      "nombre": "Camara aro 26",
-      "descripcion": "Caramara bicicleta",
-      "codigo":"C-26",
-      "precio": 1500,
-      "stock": 717,
-      "imagen": "47.Camara_aro_26.webp"
-    }
-  ],
-   "FORRO_BICICLETA":[
-     {
-      "id": 1,
-      "nombre": "Forro aro 20",
-      "descripcion": "Forro aro 20",
-      "codigo":"FA-20",
-      "precio": 9900,
-      "stock": 200,
-      "imagen": "48.Forro_20.webp"
-    },
-    {
-      "id": 2,
-      "nombre": "Forro aro 24",
-      "descripcion": "Forro aro 24",
-      "codigo":"FA-24",
-      "precio": 9900,
-      "stock": 200,
-      "imagen": "49.Forro_24.webp"
-    },
-      {
-      "id": 3,
-      "nombre": "Forro aro 26",
-      "descripcion": "Forro aro 26",
-      "codigo":"FA-26",
-      "precio": 9900,
-      "stock": 200,
-      "imagen": "50.Forro_26.webp"
-    }
-  ],
-   "PARCHE_BICICLETA":[
-     {
-      "id": 1,
-      "nombre": "Parche bicicleta",
-      "descripcion":"54x32mm",
-      "codigo":"PB-54",
-      "precio": 2000,
-      "stock": 100,
-      "imagen": "51.Parche_bicicleta.webp"
-    }
-  ],
-    "PEGAMENTO_PARCHE":[
-     {
-      "id": 1,
-      "nombre": "Pegamento parche",
-      "descripcion":"pegamento para parches bicicletas",
-      "codigo":"PPB-43",
-      "precio": 3000,
-      "stock":  240,
-      "imagen": "52.Pegamento_bicicleta.webp"
-    }
-  ],  
-   "BOMBIN":[
-     {
-      "id": 1,
-      "nombre": "Bombin manual",
-      "descripcion":"bomin manual",
-      "codigo":"BM005",
-      "precio": 13990,
-      "stock": 475,
-      "imagen": "53.Bombin_manual.webp"
-    },
-    {
-      "id": 2,
-      "nombre": "Bombin con compresor",
-      "descripcion":"bomin con compresor",
-      "codigo":"BCC-19",
-      "precio": 23990,
-      "stock": 405,
-      "imagen": "54.Bombin_compresor.webp"
-    },
-     {
-      "id": 3,
-      "nombre": "Bombin mini bicicleta",
-      "descripcion":"bombin mini",
-      "codigo":"BMN-543",
-      "precio": 8990,
-      "stock": 11809,
-      "imagen": "55.Bombin_mini.webp"
-    }
-  ]
-},
+ 
 
 
-  "chapas": {
-  "CHAPA_DORMITORIO": [
-    {
+"chapas dormitorio":{
+  "CHAPAS DORMITORIO":[
+  {
       "id": 1,
       "nombre": "Chapa con llaves",
       "descripcion": "Chapa dormitorio",
       "codigo":"CPD3",
       "precio": 8425,
       "stock": 801,
-      "imagen": "56.Chapa_con_llave.webp"
+      "imagen": "56.Chapa_con_llave.webp",
+      "categoria": "Chapa Dormitorio"
     },
      {
       "id": 2,
@@ -708,7 +745,8 @@
       "codigo":"CPD4",
       "precio": 9500,
       "stock":  600,
-      "imagen": "57.Chapa_con_manilla.webp"
+      "imagen": "57.Chapa_con_manilla.webp",
+       "categoria": "Chapa Dormitorio"
     },
       {
       "id": 3,
@@ -717,10 +755,16 @@
       "codigo":"C-26",
       "precio": 9900,
       "stock": 717,
-      "imagen": "58.Chapa_con_manilla_cuadrada.webp"
+      "imagen": "58.Chapa_con_manilla_cuadrada.webp",
+      "categoria": "Chapa Dormitorio"
     }
-  ],
-   "CHAPA_PORTON":[
+  ]
+},
+
+
+
+"chapa porton":{
+ "CHAPA_PORTON":[
      {
       "id": 1,
       "nombre": "Cerradura reja 1",
@@ -728,7 +772,8 @@
       "codigo":"CREXT-1",
       "precio": 13990,
       "stock": 1200,
-      "imagen": "59.Cerradura_reja_1.webp"
+      "imagen": "59.Cerradura_reja_1.webp",
+      "categoria": "Chapa Porton"
     },
     {
       "id": 2,
@@ -737,7 +782,8 @@
       "codigo":"CREXT-2",
       "precio": 24990,
       "stock": 1050,
-      "imagen": "60.Cerradura_reja_2.webp"
+      "imagen": "60.Cerradura_reja_2.webp",
+      "categoria": "Chapa Porton"
     },
       {
       "id": 3,
@@ -746,10 +792,14 @@
       "codigo":"CREXT-3",
       "precio": 13990,
       "stock": 990,
-      "imagen": "61.Cerradura_reja_3.webp"
+      "imagen": "61.Cerradura_reja_3.webp",
+       "categoria": "Chapa Porton"
     }
-  ],
-   "Cerradura Baño":[
+  ]
+},
+
+"chapa baño":{
+  "CHAPA BAÑO":[
      {
       "id": 1,
       "nombre": "Cerradura baño 1",
@@ -757,7 +807,8 @@
       "codigo":"CB-1",
       "precio": 42000,
       "stock": 350,
-      "imagen": "62.Cerradura_baño_1.webp"
+      "imagen": "62.Cerradura_baño_1.webp",
+      "categoria": "Chapa Baño"
     },
     {
       "id": 2,
@@ -766,7 +817,8 @@
       "codigo":"CB-2",
       "precio": 32000,
       "stock": 1350,
-      "imagen": "63.Cerradura_baño_2.webp"
+      "imagen": "63.Cerradura_baño_2.webp",
+       "categoria": "Chapa Baño"
     },
     {
       "id": 3,
@@ -775,10 +827,16 @@
       "codigo":"CB-3",
       "precio": 6000,
       "stock": 850,
-      "imagen": "64.Cerradura_baño_3.webp"
+      "imagen": "64.Cerradura_baño_3.webp",
+      "categoria": "Chapa Baño"
     }
-  ],
-    "CHAPA_PRINCIPAL":[
+
+  ]
+},
+
+
+  "chapas principal": {
+    "CHAPA PRINCIPAL":[
      {
       "id": 1,
       "nombre": "Cerradura principal 1",
@@ -786,7 +844,8 @@
       "codigo":"CRP-L1",
       "precio": 17300,
       "stock":  690,
-      "imagen": "65.Cerradura_principal_1.webp"
+      "imagen": "65.Cerradura_principal_1.webp",
+      "categoria": "Chapa Principal"
     },
      {
       "id": 2,
@@ -795,7 +854,8 @@
       "codigo":"CRP-L2",
       "precio": 17300,
       "stock":  1190,
-      "imagen": "66.Cerradura_principal_2.webp"
+      "imagen": "66.Cerradura_principal_2.webp",
+      "categoria": "Chapa Principal"
     },
       {
       "id": 3,
@@ -804,18 +864,24 @@
       "codigo":"CRP-L3",
       "precio": 12300,
       "stock":  9000,
-      "imagen": "67.Cerradura_principal_3.webp"
+      "imagen": "67.Cerradura_principal_3.webp",
+      "categoria": "Chapa Principal"
     }
-  ],  
-   "CERROJO_LLAVE_SEGURO":[
-     {
+  ]
+},
+
+"chapa interior":{
+  "CHAPA INTERIOR":[
+  {
+      
       "id": 1,
       "nombre": "Cerrojo llave seguro 1",
       "descripcion":"cerradura interior",
       "codigo":"CLL-1",
       "precio": 10990,
       "stock": 498,
-      "imagen": "68.Cerrojo_llave_seguro_1.webp"
+      "imagen": "68.Cerrojo_llave_seguro_1.webp",
+      "categoria": "Chapa Interior"
     },
     {
       "id": 2,
@@ -824,7 +890,8 @@
       "codigo":"CLL-2",
       "precio": 8990,
       "stock": 748,
-      "imagen": "69.Cerrojo_llave_seguro_2.webp"
+      "imagen": "69.Cerrojo_llave_seguro_2.webp",
+      "categoria": "Chapa Interior"
     },
      {
       "id": 3,
@@ -833,10 +900,14 @@
       "codigo":"CLL-2",
       "precio": 6990,
       "stock": 546,
-      "imagen": "70.Cerrojo_llave_seguro_3.webp"
+      "imagen": "70.Cerrojo_llave_seguro_3.webp",
+      "categoria": "Chapa Interior"
     }
-  ],
-     "CERRADURA_MUEBLE":[
+  ]
+},
+
+"chapa_muebles":{
+  "CHAPA MUEBLES":[
      {
       "id": 1,
       "nombre": "Cerradura mueble 1",
@@ -844,7 +915,8 @@
       "codigo":"CRM-1",
       "precio": 5990,
       "stock": 400,
-      "imagen": "71.Chapa_mueble_1.webp"
+      "imagen": "71.Chapa_mueble_1.webp",
+       "categoria": "Chapas Muebles"
     },
     {
       "id": 2,
@@ -853,7 +925,8 @@
       "codigo":"CRM-2",
       "precio": 5990,
       "stock": 450,
-      "imagen": "72.Chapa_mueble_2.webp"
+      "imagen": "72.Chapa_mueble_2.webp",
+      "categoria": "Chapas Muebles"
     },
      {
       "id": 3,
@@ -862,11 +935,11 @@
       "codigo":"CRM-3",
       "precio": 5990,
       "stock": 550,
-      "imagen": "73.Chapa_mueble_3.webp"
+      "imagen": "73.Chapa_mueble_3.webp",
+      "categoria": "Chapas Muebles"
     }
-  ]
+  ] 
 },
-
 
 "discos": {
   "DISCOS": [
@@ -877,7 +950,8 @@
       "codigo":"CD-CRT",
       "precio": 2000,
       "stock": 100,
-      "imagen": "74.Disco_corte.webp"
+      "imagen": "74.Disco_corte.webp",
+      "categoria": "Discos"
     },
      {
       "id": 2,
@@ -886,7 +960,8 @@
       "codigo":"CD-DEB",
       "precio": 3000,
       "stock":  100,
-      "imagen": "75.Disco_desbaste.webp"
+      "imagen": "75.Disco_desbaste.webp",
+      "categoria": "Discos"
     },
       {
       "id": 3,
@@ -895,7 +970,8 @@
       "codigo":"CD-DCF",
       "precio": 3000,
       "stock": 100,
-      "imagen": "76.Disco_fino_corte.webp"
+      "imagen": "76.Disco_fino_corte.webp",
+      "categoria": "Discos"
     },
      {
       "id": 4,
@@ -904,7 +980,8 @@
       "codigo":"DC-FPM1",
       "precio": 15990,
       "stock": 100,
-      "imagen": "77.Disco_flap_madera.webp"
+      "imagen": "77.Disco_flap_madera.webp",
+      "categoria": "Discos"
     },
       {
       "id": 5,
@@ -913,7 +990,8 @@
       "codigo":"DC-FPM2",
       "precio": 30000,
       "stock": 100,
-      "imagen": "78.Disco_flap_metal.webp"
+      "imagen": "78.Disco_flap_metal.webp",
+      "categoria": "Discos"
     },
       {
       "id": 6,
@@ -922,7 +1000,8 @@
       "codigo":"DC-FPM2",
       "precio": 2400,
       "stock": 100,
-      "imagen": "79.Disco_removedor.webp"
+      "imagen": "79.Disco_removedor.webp",
+      "categoria": "Discos"
     },
        {
       "id": 7,
@@ -931,7 +1010,8 @@
       "codigo":"DC-TDR",
       "precio": 4000,
       "stock": 100,
-      "imagen": "80.Disco_goma_taladro.webp"
+      "imagen": "80.Disco_goma_taladro.webp",
+      "categoria": "Discos"
     },
       {
       "id": 8,
@@ -940,7 +1020,8 @@
       "codigo":"DC-TDR",
       "precio": 4500,
       "stock": 100,
-      "imagen": "81.Disco_lija_velcro.webp"
+      "imagen": "81.Disco_lija_velcro.webp",
+      "categoria": "Discos"
     },
     {
       "id": 9,
@@ -949,7 +1030,8 @@
       "codigo":"DP-12",
       "precio": 4500,
       "stock": 100,
-      "imagen": "82.Disco_pulir.webp"
+      "imagen": "82.Disco_pulir.webp",
+      "categoria": "Discos"
     },
     {
       "id": 10,
@@ -958,7 +1040,8 @@
       "codigo":"DS-TDR",
       "precio": 5500,
       "stock": 100,
-      "imagen": "83.Disco_sierra_madera.webp"
+      "imagen": "83.Disco_sierra_madera.webp",
+      "categoria": "Discos"
     }
     ]
 },
@@ -972,7 +1055,8 @@
       "codigo":"DMMC-M",
       "precio": 30000,
       "stock": 550,
-      "imagen": "84.Ducha_marsella.webp"
+      "imagen": "84.Ducha_marsella.webp",
+      "categoria": "Baños"
     },
      {
       "id": 2,
@@ -981,7 +1065,8 @@
       "codigo":"DMMC-N",
       "precio": 30000,
       "stock": 550,
-      "imagen": "85.Ducha_napoles.webp"
+      "imagen": "85.Ducha_napoles.webp",
+      "categoria": "Baños"
     },
       {
       "id": 3,
@@ -990,7 +1075,8 @@
       "codigo":"DMMC-p",
       "precio": 30000,
       "stock": 550,
-      "imagen": "86.Ducha_priego.webp"
+      "imagen": "86.Ducha_priego.webp",
+      "categoria": "Baños"
     }
   ]
 }
