@@ -1,0 +1,167 @@
+
+
+
+footer{
+    position: fixed;
+
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    text-align: center;
+    padding: 20px;
+    background: hsl(0, 0%, 93%);
+    color: #1A4C6E; 
+} 
+
+
+.contenedor{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 15px;
+    margin: 0 auto;
+  
+
+}
+
+.imagen .img-footer {
+    /* Hace que la imagen ocupe todo el espacio de su div */
+    margin: 0px;
+    width: 30%;
+    height: 100%;
+    justify-content: center;
+    border-radius: 25%;
+
+    
+}
+
+
+
+.listas-wrapper {
+    display: flex; /* Usamos Flexbox para distribuir las 3 listas dentro de este div */
+    gap: 15px; /* Espacio entre las listas individuales */
+   
+    
+}
+
+.lista-columna {
+    list-style: none; /* Elimina los puntos o viñetas por defecto */
+    padding: 15;
+    margin: 0;
+    /* Las hace ocupar espacio igual dentro del flexbox */
+    flex: 1;
+    padding: 10px;
+}
+
+.lista-columna li {
+    margin-bottom: 5px;
+ 
+}
+
+
+.icono-pagos {
+    max-width: 150px;   /* controla el ancho máximo */
+    width: 100%;        /* se adapta al contenedor */
+    height: auto;       /* mantiene proporción */
+    display: block;
+    margin: 0 auto;     /* la centra */
+}
+
+
+.iconos-redes {
+    text-align: center;  /* centra el contenido */
+     list-style-type: none; 
+     margin-top: 10px;
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+    gap: 15px;        /* espacio entre iconos */
+    margin-top: 10px; /* separa el texto de los iconos */
+}
+
+.redes i {
+    font-size: 24px;   /* tamaño de iconos */
+    cursor: pointer;
+}
+
+.listas-wrapper li:hover {
+     /* Cambia el color de fondo para indicar que el elemento es interactivo */
+    /* color: #E57044; ; naranjo*/
+    /* color: #A8A7A8; gris*/
+    /* color: #E57044;  */
+    color: white;
+    border: 2px solid #1A4C6E;
+    border-radius: 25px;
+    background-color: #1A4C6E;
+    /* padding: 5px 10px;  */
+}
+
+/* Estilo base del link */
+.lista-columna a {
+    display: inline-block;
+     border: 2px solid transparent;  
+}
+
+/* Hover SOLO al link */
+.lista-columna a:hover {
+    background-color: #1A4C6E;
+    border-radius: 25px;
+    border-color: #1A4C6E;
+    color: white;
+}
+
+/* Media Query para pantallas pequeñas (máximo 768px) */
+@media (max-width: 768px) {
+    
+    /* 1. Cambio en el Contenedor Principal */
+    /* De 2 columnas (1fr 3fr) a 1 sola columna. */
+    .contenedor {
+        display: block; /* Cambiamos de grid a block para apilarlos */
+        /* Opcional: grid-template-columns: 1fr; */
+        gap: 0;
+        text-align: center; /* Centramos el contenido dentro del contenedor */
+    }
+
+    /* 2. Ajuste de la Imagen */
+    /* La centramos y le damos un tamaño adecuado para el móvil */
+    .imagen {
+        margin-bottom: 20px;
+    }
+z
+    .imagen .img-footer {
+        width: 150px; /* Tamaño fijo para que no sea demasiado grande */
+        height: auto;
+        margin: 0 auto; /* Centramos la imagen */
+    }
+
+    /* 3. Ajuste de las Listas de Enlaces */
+    /* De 3 columnas a apiladas o en una fila simple y centradas */
+    .listas-wrapper {
+        flex-direction: column; /* Apilamos las listas una encima de la otra */
+        align-items: center; /* Centramos las listas en el centro */
+        gap: 0; /* Removemos el espacio extra */
+    }
+
+    .lista-columna {
+        /* Ocupan todo el ancho, pero con un max-width para que no se estiren demasiado */
+        flex: none; /* Desactivamos el flex: 1 */
+        width: 100%;
+        max-width: 300px;
+        padding: 5px 0;
+        text-align: center; /* Centramos el texto de los títulos */
+        margin-bottom: 10px; /* Separación entre las listas */
+        border-bottom: 1px solid #ccc; /* Separador visual sutil */
+    }
+    
+    .lista-columna:last-child {
+        border-bottom: none; /* Quitamos el separador de la última lista */
+    }
+
+    /* 4. Ajuste de las Iconos y Pagos */
+    /* Ya están centrados, pero aseguramos el margen */
+    .icono-pagos, .iconos-redes {
+        margin-top: 20px;
+    }
+}

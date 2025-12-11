@@ -1,0 +1,195 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+
+}
+
+
+nav{
+    position: fixed;
+    margin: 0; 
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+nav.contenedor{
+  max-width: 100%;
+  height: 70px;
+  overflow: visible;
+  display: inline-block;
+  background-color: #F6F7F7; /* El color de fondo es mejor aquí */
+  max-width: 1200% !important;
+  margin: 0 auto;
+    
+
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0;
+    overflow: hidden;     
+    /* PROPIEDADES DE FLEXBOX PARA ALINEAR A LA DERECHA */
+    /* justify-content: flex-end;  */
+    gap:0px; 
+    margin-right: 100px;
+}
+
+.menu{  
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; /* 🔥 ESTO MUEVE LA UL A LA DERECHA */
+    max-width: 100%;
+    
+}
+
+
+
+.menu li{
+    /* Asegura que no haya márgenes extraños */
+    margin: 0; 
+    padding: 0;
+    
+   
+}
+
+.menu li a {
+    display: inline-block;  /* Muestra el enlace como un bloque para que pueda tener relleno y altura/ancho */
+    color:  #1A4C6E;   /* Define el color del texto del enlace */
+    padding: 30px;   /* Agrega un relleno alrededor del texto para que el área de clic sea más grande */
+    margin: 0px; 
+    text-decoration: none;  /* Quita el subrayado por defecto de los enlaces */
+    text-align: center;    /* Alinea el texto al centro (opcional) */
+    background-color: #F6F7F7;
+    border: 2px solid transparent;
+    padding: 5px 10px;
+    margin-top: 10px;
+}
+
+.menu li a:hover {
+  
+    color: white;
+    border: 2px solid #1A4C6E;
+    border-radius: 25px;
+    background-color: #1A4C6E;
+}
+
+
+.logo{
+ width: 100px;
+    height: 70px;
+}
+
+
+
+
+/* Nuevo estilo: Icono de hamburguesa */
+.hamburguesa {
+    /* Por defecto, OCULTO en escritorio */
+    display: none;
+    max-width: auto; 
+    font-size: 30px; /* Tamaño del icono */
+    cursor: pointer;
+    color: #1A4C6E;
+    /* Asegura que esté en el mismo nivel que el logo */
+    align-self: center; 
+    padding: 10px;
+}
+
+/* =============================
+   RESPONSIVE — PANTALLAS MEDIANAS
+   ============================= */
+@media (max-width: 1024px) {
+
+   /* muestra la hamburguesa */
+    .hamburguesa {
+        display: block; /* Ahora es visible en este rango */
+        z-index: 9999;
+    }
+
+    .menu{  
+    display: flex;
+    align-items: center; 
+    
+ 
+    
+}
+     nav ul {
+        position: absolute;
+        background-color: #F6F7F7;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        display: none; /* Oculto por defecto */
+        padding-bottom: 10px;
+      
+    }
+
+
+     /* Cuando el checkbox esté activado, mostramos el menú */
+    #menu-toggle:checked ~ ul {
+        display: flex !important;
+        max-width: 100%;
+    }
+.logo{
+ width: 100px;
+    height: 70px;
+}
+
+
+   
+}
+
+/* =============================
+   RESPONSIVE — HAMBURGUESA 768px
+   ============================= */
+
+@media (max-width: 768px) {
+
+    /* Mostrar hamburguesa */
+    .hamburguesa {
+        display: block !important;
+        z-index: 9999;
+    }
+
+
+
+    /* UL pasa de horizontal a vertical */
+    nav ul {
+        position: absolute;
+        background-color: #F6F7F7;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        display: none; /* Oculto por defecto */
+        padding-bottom: 10px;
+      
+    }
+
+    /* Cuando el checkbox esté activado, mostramos el menú */
+    #menu-toggle:checked ~ ul {
+        display: flex !important;
+        max-width: 100%;
+    }
+
+    nav ul li {
+        text-align: center;
+        padding: 10px 0;
+
+     
+    }
+
+    .logo{
+  width: 100px;
+    height: 70px;
+}
+
+
+}

@@ -1,25 +1,60 @@
 const express = require('express');
 const cors = require('cors');
 const path = require('path');
+
 const productosRoutes = require('./src/router/productosRutes.js');
 
 const app = express();
-const port = 3000; 
+const port = 3000;
 
-// Para leer JSON
-app.use(express.json())
-
-// Habilitar CORS
+app.use(express.json());
 app.use(cors());
 
-// Servir archivos estáticos (HTML, CSS, JS)
+// Archivos estáticos
 app.use(express.static(path.join(__dirname, 'public')));
+app.use('/views', express.static(path.join(__dirname, 'src/view')));
+app.use('/data', express.static(path.join(__dirname, 'src/data')));
+app.use('/componentes', express.static(path.join(__dirname, 'public/componentes')));
 
-// Rutas API
+// API
+// app.use('/api/productos', productosRoutes);
+
+// ===============================
+// RUTAS SPA
+// ===============================
+
+
 app.use('/api/productos', productosRoutes);
 
 
-// iniciar el servidor
-app.listen(port, ()=>{
-    console.log("Servidor iniciado en http://localhost:" + port);
-})
+// Ruta explícita para /inicio
+app.get('/inicio', (req, res) => {
+    res.sendFile(path.join(__dirname, 'src/view/index.html'));
+});
+
+// SPA pages
+app.get('/sobre-nosotros', (req, res) => {
+    res.sendFile(path.join(__dirname, 'src/view/index.html'));
+});
+
+app.get('/productos', (req, res) => {
+    res.sendFile(path.join(__dirname, 'src/view/index.html'));
+});
+
+app.get('/busca-tienda', (req, res) => {
+    res.sendFile(path.join(__dirname, 'src/view/index.html'));
+});
+
+// Cualquier otra ruta → SPA
+app.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname, 'src/view/index.html'));
+});
+
+// 404 Controlado (opcional)
+app.use((req, res) => {
+    res.sendFile(path.join(__dirname, 'src/view/index.html'));
+});
+
+app.listen(port, () => {
+    console.log(`Servidor iniciado en http://localhost:${port}`);
+});
