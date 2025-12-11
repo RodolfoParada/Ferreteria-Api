@@ -1,13 +1,25 @@
+
+
+
 async function cargarProductos() {
     try {
-        const resp = await fetch('http://localhost:3000/api/productos');
+        const resp = await fetch('/data/productos.json');
         const data = await resp.json();
 
         console.log(data)
         const contenedor = document.getElementById('lista-productos');
 
+          // Aplanar JSON
+        let productos = [];
+
+        Object.values(data).forEach(categoria => {
+            Object.values(categoria).forEach(subgrupo => {
+                productos = productos.concat(subgrupo);
+            });
+        });
+
         // Mostrar productos
-        contenedor.innerHTML = data.data.map(prod => `
+        contenedor.innerHTML = productos.map(prod => `
             <div>
                 <h3>${prod.nombre}</h3>
                 <p>Descripción: ${prod.descripcion}</p>

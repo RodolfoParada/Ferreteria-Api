@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Evita problemas de tamaños */
+}
+
+/* 2. Asegura que HTML ocupe todo el alto */
+html, body {
+  top:100px;
+  height: 100%;
+}
+
+/* 3. Fuente y suavizado */
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+main {
+  margin-top: 80px;
+}
