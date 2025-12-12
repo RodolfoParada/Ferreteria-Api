@@ -94,16 +94,17 @@
     border: 2px solid #1A4C6E; 
 }
 
-/* ------------------------------------------- */
-/* 💻 MEDIA QUERY: Pantallas de hasta 1700px (Portátiles pequeños / Tablets Lg.) */
 
 /* ------------------------------------------- */
-@media (max-width: 1680px) {
+/* 💻 MEDIA QUERY: Pantallas de hasta 1690px (Portátiles pequeños / Tablets Lg.) */
+
+/* ------------------------------------------- */
+@media (max-width: 1690px) {
 
     /* ➡️ Contenedor Principal: Cambiamos a 4 columnas */
     #lista-productos {
          display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;; /* 4 columnas */
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr; /* 4 columnas */
         gap: 15px; 
         padding: 15px;
     }
@@ -117,7 +118,7 @@
 
 
 /* ------------------------------------------- */
-/* 💻 MEDIA QUERY: Pantallas de hasta 1500px (Portátiles pequeños / Tablets Lg.) */
+/* 💻 MEDIA QUERY: Pantallas de hasta 1645px (Portátiles pequeños / Tablets Lg.) */
 
 /* ------------------------------------------- */
 @media (max-width: 1645px) {
