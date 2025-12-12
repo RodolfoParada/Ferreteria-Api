@@ -11,7 +11,7 @@
 /* 🚀 Estilo de la Card Individual */
 .producto-card {
     /* Define el tamaño de la tarjeta */
-    width: 300px; 
+    max-width: 380px; 
     
     /* Propiedades visuales de la tarjeta */
     border: 1px solid #ddd;
@@ -90,7 +90,66 @@
     color: white;
     border-radius: 15px;
     border: 2px solid #1A4C6E; 
-   
 
+}
+/* ------------------------------------------- */
+/* 💻 MEDIA QUERY: Pantallas de hasta 1024px (Portátiles pequeños / Tablets Lg.) */
+/* ------------------------------------------- */
+@media (max-width: 1024px) {
 
+    /* ➡️ Contenedor Principal: Cambiamos a 4 columnas */
+    #lista-productos {
+        grid-template-columns: 1fr 1fr 1fr 1fr; /* 4 columnas */
+        gap: 15px; 
+        padding: 15px;
+    }
+    
+    /* ➡️ Card Individual: Aseguramos que ocupe el espacio de su columna */
+    .producto-card {
+        max-width: none; 
+    }
+}
+
+/* ------------------------------------------- */
+/* 📱 MEDIA QUERY: Dispositivos de hasta 768px (Móviles y Tablets) */
+/* ------------------------------------------- */
+@media (max-width: 768px) {
+
+    /* ➡️ Contenedor Principal: Cambiamos a 2 columnas */
+    #lista-productos {
+        grid-template-columns: 1fr 1fr; /* 2 columnas */
+        gap: 15px; /* Ajustamos el espacio */
+        padding: 15px;
+    }
+    
+    /* ➡️ Card Individual: Aseguramos que ocupe todo el espacio de su columna */
+    .producto-card {
+        max-width: none; /* Ignora el max-width original de 380px */
+    }
+
+    /* ➡️ Imagen de la Card */
+    .card-imagen {
+        height: 180px; /* Podemos reducir un poco la altura de la imagen */
+    }
+
+    /* ➡️ Tipografía y Detalles */
+    .card-titulo {
+        font-size: 1.2em;
+    }
+    
+    .card-precio {
+        font-size: 1.3em;
+    }
+
+    .card-descripcion {
+        font-size: 0.85em;
+        /* Ocultar la descripción en vistas pequeñas para ahorrar espacio */
+        /* display: none; */ 
+    }
+
+    /* ➡️ Botón */
+    .boton {
+        width: 60%; /* Hacemos el botón más ancho para facilitar el toque */
+        font-size: 0.9em;
+    }
 }
