@@ -1,0 +1,194 @@
+.container {
+    display: grid;
+    /* Define 2 columnas con igual ancho (1 fracción cada una) */
+    grid-template-columns: 1fr 1fr 1fr;
+    /* Espacio entre las columnas y filas */
+    gap: 20px;
+    padding: 20px;
+    width: 1200px;
+    color: #1A4C6E;
+
+    /* Centra el contenedor completo en la página */
+    margin: 0 auto;
+    /* Limita el ancho máximo para evitar que se estire demasiado en pantallas grandes */
+    max-width: auto; 
+}
+
+.container > .first {
+    /* Añadir un borde o fondo para distinguir cada sección */
+    padding: 20px;
+    border: 1px solid #8d8787; /* Un borde sutil */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para profundidad */
+    background-color: #f9f9f9;
+    text-align:start;
+}
+
+.container:hover{
+    color:black; 
+}
+
+.container .title{
+    text-align: center;
+}
+
+
+.container-equipo{
+    display: grid;
+    text-align: center;
+    padding: 20px;
+    width: auto;
+    color: #1A4C6E;
+}
+
+.container-vendedores{
+  display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+    width: 1200px;
+    color: #1A4C6E;
+
+    /* Centra el contenedor completo en la página */
+    margin: 0 auto;
+    /* Limita el ancho máximo para evitar que se estire demasiado en pantallas grandes */
+    max-width: auto; 
+}
+
+
+
+
+.vendedores img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+
+}
+
+.container-vendedores p{
+    text-align:start;
+
+}
+
+.container-vendedores .title{
+    text-align: center;
+}
+
+.container-compromiso{
+    display: grid;
+    grid-template-columns: 1fr; 
+    gap: 20px;
+    padding: 20px;
+    width: auto;
+    color: #1A4C6E;
+    /* Centra el contenedor completo en la página */
+    margin: 0 auto;
+    /* Limita el ancho máximo para evitar que se estire demasiado en pantallas grandes */
+    max-width: 1200px; 
+    text-align: center;
+}
+
+.container-compromiso .title{
+    text-align: center;
+
+}
+
+.container-compromiso > .compromiso {
+    /* Añadir un borde o fondo para distinguir cada sección */
+    padding: 20px;
+    border: 1px solid #8d8787; /* Un borde sutil */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para profundidad */
+    background-color: #f9f9f9;
+    text-align:start;
+}
+
+
+
+.lista-compromiso li{
+
+    width: fit-content; 
+}
+
+.lista-compromiso {
+    /* Limpieza inicial */
+    list-style: none; 
+    padding-left: 0; 
+    
+    /* Hace que el UL sea tan ancho como el LI más largo */
+    width: fit-content; 
+    
+    /* Centra el bloque UL horizontalmente en la página/contenedor padre */
+    margin: 15px auto; 
+    
+    /* Centra el texto de cada LI dentro de este UL ajustado */
+    text-align: center; 
+}
+
+
+.container-adicional-ubicacion{
+     display: grid;
+    /* Define 2 columnas con igual ancho (1 fracción cada una) */
+    grid-template-columns: 1fr 1fr;
+    /* Espacio entre las columnas y filas */
+    gap: 20px;
+    padding: 20px;
+    width: auto;
+    color: #1A4C6E;
+
+    /* Centra el contenedor completo en la página */
+    margin: 0 auto;
+    /* Limita el ancho máximo para evitar que se estire demasiado en pantallas grandes */
+    max-width: 1200px; 
+    text-align: center;
+    align-items: center;
+
+}
+
+.container-adicional-ubicacion > .container-adicional {
+    /* Añadir un borde o fondo para distinguir cada sección */
+    padding: 20px;
+    border: 1px solid #8d8787; /* Un borde sutil */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para profundidad */
+    background-color: #f9f9f9;
+    text-align:start;
+    height: 40%;
+   align-items: center;
+}
+
+.container-adicional .title{
+    text-align: center;
+}
+/* DISEÑO RESPONSIVO */
+@media (max-width: 1024px) {
+    /* Contenedor principal (Historia, Misión, Valores) cambia a 2 columnas */
+    .container {
+        grid-template-columns: 1fr 1fr;
+    }
+    /* Contenedor de vendedores cambia a 3 columnas */
+    .container-vendedores {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    /* Contenedor principal cambia a 1 columna */
+    .container {
+        grid-template-columns: 1fr;
+    }
+    /* Contenedor de vendedores cambia a 2 columnas */
+    .container-vendedores {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Contenedor de vendedores cambia a 1 columna */
+    .container-vendedores {
+        grid-template-columns: 1fr;
+    }
+}
+
+

@@ -20,6 +20,7 @@
 html, body {
   top:100px;
   height: 100%;
+  
 }
 
 /* 3. Fuente y suavizado */
@@ -30,6 +31,6 @@ body {
 }
 
 main {
-  margin-top: 80px;
+  margin-top: 50px;
 }
 
