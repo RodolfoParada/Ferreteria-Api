@@ -53,14 +53,15 @@
     margin: 0 auto;
     /* Limita el ancho máximo para evitar que se estire demasiado en pantallas grandes */
     max-width: auto; 
+    justify-items: center;
 }
 
 
 
 
 .vendedores img{
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     object-fit: cover;
     border-radius: 50%;
 
