@@ -1,19 +1,22 @@
 /* Estilo del contenedor principal para que las cards se muestren en filas */
 #lista-productos {
      display: grid;
-     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+     grid-template-columns: 1fr 1fr 1fr;
      gap: 10px; /* Espacio entre las cards */
+     
+     /* ✅ CORRECCIÓN CLAVE para centrar y ser responsivo */
+     max-width: 1200px; /* El ancho máximo que tendrá */
+     width: 90%; /* Ocupa el 90% del ancho de la pantalla si es menor a 1200px */
+     margin: 0 auto; /* Centra el bloque horizontalmente */
+     
      padding: 15px;
-     justify-items: center;  
-     max-width: auto; 
+     /*max-width: auto; (Eliminado)*/ 
 }
 
 /* 🚀 Estilo de la Card Individual */
 .producto-card {
-    /* Define el tamaño de la tarjeta */
-    width: 340px;
-   
-    
+    /* Define el tamaño de la tarjeta - Se ajustará automáticamente con Grid */
+    width: 340px; 
     
     /* Propiedades visuales de la tarjeta */
     border: 1px solid #ddd;
@@ -97,16 +100,18 @@
 
 /* ------------------------------------------- */
 /* 💻 MEDIA QUERY: Pantallas de hasta 1690px (Portátiles pequeños / Tablets Lg.) */
-
 /* ------------------------------------------- */
 @media (max-width: 1690px) {
 
-    /* ➡️ Contenedor Principal: Cambiamos a 4 columnas */
+    /* ➡️ Contenedor Principal: Cambiamos a 5 columnas */
     #lista-productos {
          display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr; /* 4 columnas */
+        grid-template-columns: 1fr 1fr 1fr; /* 5 columnas */
         gap: 15px; 
         padding: 15px;
+        /* width: 1690px; <- ELIMINADO: Usamos max-width y margin: 0 auto; del estilo base */
+        width: 100%; /* Ocupa el 100% de lo disponible para que Grid se ajuste */
+        max-width: none; /* Permitir que se expanda hasta el límite de la pantalla */
     }
     
     /* ➡️ Card Individual: Aseguramos que ocupe el espacio de su columna */
@@ -119,16 +124,18 @@
 
 /* ------------------------------------------- */
 /* 💻 MEDIA QUERY: Pantallas de hasta 1645px (Portátiles pequeños / Tablets Lg.) */
-
 /* ------------------------------------------- */
 @media (max-width: 1645px) {
 
-    /* ➡️ Contenedor Principal: Cambiamos a 4 columnas */
+    /* ➡️ Contenedor Principal: Se mantiene en 5 columnas, ajustándose al ancho */
     #lista-productos {
          display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr; /* 4 columnas */
+        grid-template-columns: 1fr 1fr 1fr; /* 5 columnas */
         gap: 15px; 
         padding: 15px;
+        /* width: 1645px; <- ELIMINADO */
+        width: 100%;
+        max-width: none;
     }
     
     /* ➡️ Card Individual: Aseguramos que ocupe el espacio de su columna */
@@ -137,17 +144,19 @@
     }
 }
 /* ------------------------------------------- */
-/* 💻 MEDIA QUERY: Pantallas de hasta 1200px (Portátiles pequeños / Tablets Lg.) */
-
+/* 💻 MEDIA QUERY: Pantallas de hasta 1200px (Ahora con 4 columnas) */
 /* ------------------------------------------- */
 @media (max-width: 1200px) {
 
-    /* ➡️ Contenedor Principal: Cambiamos a 4 columnas */
+    /* ➡️ Contenedor Principal: Cambiamos a 43columnas */
     #lista-productos {
          display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr ; /* 4 columnas */
+        grid-template-columns: 1fr 1fr 1fr ; /* 3columnas */
         gap: 15px; 
         padding: 15px;
+        /* width: 1200px; <- ELIMINADO */
+        width: 100%; /* Asegura que ocupe todo el ancho para centrar los 4 items */
+        max-width: none;
     }
     
     /* ➡️ Card Individual: Aseguramos que ocupe el espacio de su columna */
@@ -160,27 +169,30 @@
 
 
 /* ------------------------------------------- */
-/* 💻 MEDIA QUERY: Pantallas de hasta 1024px (Portátiles pequeños / Tablets Lg.) */
-
+/* 💻 MEDIA QUERY: Pantallas de hasta 1024px (3 columnas) */
 /* ------------------------------------------- */
 @media (max-width: 1024px) {
 
-    /* ➡️ Contenedor Principal: Cambiamos a 4 columnas */
+    /* ➡️ Contenedor Principal: Cambiamos a 3 columnas */
     #lista-productos {
          display: grid;
-        grid-template-columns: 1fr 1fr 1fr ; /* 4 columnas */
+        grid-template-columns: 1fr 1fr 1fr ; /* 3 columnas */
         gap: 15px; 
         padding: 15px;
+        /* width: 1024px; <- ELIMINADO */
+        width: 100%;
+        max-width: none;
     }
     
     /* ➡️ Card Individual: Aseguramos que ocupe el espacio de su columna */
     .producto-card {
         max-width: none; 
+        width: 100%;
     }
 }
 
 /* ------------------------------------------- */
-/* 📱 MEDIA QUERY: Dispositivos de hasta 768px (Móviles y Tablets) */
+/* 📱 MEDIA QUERY: Dispositivos de hasta 768px (2 columnas) */
 /* ------------------------------------------- */
 @media (max-width: 768px) {
 
@@ -190,11 +202,15 @@
         grid-template-columns: 1fr 1fr; /* 2 columnas */
         gap: 15px; /* Ajustamos el espacio */
         padding: 15px;
+        /* width: 1200px; <- ELIMINADO */
+        width: 100%;
+        max-width: none;
     }
     
     /* ➡️ Card Individual: Aseguramos que ocupe todo el espacio de su columna */
     .producto-card {
-      
+         max-width: none; 
+         width: 100%;
     }
 
     /* ➡️ Imagen de la Card */
@@ -213,8 +229,6 @@
 
     .card-descripcion {
         font-size: 0.85em;
-        /* Ocultar la descripción en vistas pequeñas para ahorrar espacio */
-        /* display: none; */ 
     }
 
     /* ➡️ Botón */

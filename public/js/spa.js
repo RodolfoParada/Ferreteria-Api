@@ -21,6 +21,22 @@ async function cargarVista(vista, replaceState = false) {
         const html = await resp.text();
         main.innerHTML = html;
 
+        // DESPUÉS de cargar la vista
+if (vista === "busca-tienda") {
+
+    // Cargar script SOLO UNA VEZ
+    if (!window.tiendasScriptLoaded) {
+        const script = document.createElement("script");
+        script.src = "/js/tiendasService.js";
+        script.onload = () => {
+            window.cargarTiendas();
+        };
+        document.body.appendChild(script);
+        window.tiendasScriptLoaded = true;
+    } else {
+        window.cargarTiendas();
+    }
+}
         // ✅ Inicializar JS específico por vista
         if (vista === "inicio" && window.initializeCarousel) {
             initializeCarousel();

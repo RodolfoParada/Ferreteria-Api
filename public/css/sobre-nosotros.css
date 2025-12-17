@@ -17,7 +17,7 @@
 .container > .first {
     /* Añadir un borde o fondo para distinguir cada sección */
     padding: 20px;
-    border: 1px solid #8d8787; /* Un borde sutil */
+    border: 1px solid #F6F7F7; /* Un borde sutil */
     border-radius: 8px; /* Bordes redondeados */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para profundidad */
     background-color: #f9f9f9;
@@ -25,7 +25,7 @@
 }
 
 .container:hover{
-    color:black; 
+    color:grey; 
 }
 
 .container .title{

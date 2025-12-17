@@ -1,0 +1,66 @@
+/* ===============================
+   PRUEBA DE CARGA CSS
+   =============================== */
+
+/* Si esto no se aplica, el CSS NO está cargando */
+
+h1{
+    color:#1A4C6E;
+    padding: 20px;
+    margin:20px;
+}
+/* Contenedor */
+.tiendas-list {
+    display: grid;
+    grid-template-columns: 1ft; 
+    gap: 20px;
+    padding: 20px !important;
+  
+}
+/* Tarjetas */
+.tienda-card {
+    border: 5px solid #F6F7F7 !important;
+    border-radius: 20px;
+    margin: 10px !important;
+    padding: 10px !important;
+    font-size: 20px !important;
+    color: #1A4C6E ;
+}
+
+
+.tienda-card ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 0;
+    list-style: none;
+}
+.tienda-card li {
+    background: #f2f2f2;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+.tienda-card {
+  position: relative;
+}
+
+.tienda-card button {
+  position: absolute;
+  right: 10px;
+  bottom: 70px;
+  background-color:#1A4C6E;
+  color: #F6F7F7;
+  width: 100px;
+  height: 50px;
+  border-radius: 10px;
+
+}
+
+.tienda-card button:hover{
+    background-color: #F6F7F7;
+    color: #1A4C6E; 
+    border-radius: 2px solid #1A4C6E;
+}

@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "nombre": "Ferretería Central - Arica",
+    "direccion": "Av. General Velásquez 1010, Arica",
+    "telefono": "+56 58 245 1000",
+    "horario": "Lunes a Sábado: 9:00 - 18:30",
+    "latitud": -18.4746,
+    "longitud": -70.2979,
+    "servicios": ["Gasfitería", "Electricidad", "Pintura"]
+  },
+  {
+    "id": 2,
+    "nombre": "El Tornillo Feliz - Iquique",
+    "direccion": "Calle Héroes de la Concepción 320, Iquique",
+    "telefono": "+56 57 245 2000",
+    "horario": "Lunes a Viernes: 8:30 - 19:00",
+    "latitud": -20.2132,
+    "longitud": -70.1528,
+    "servicios": ["Alquiler de Herramientas", "Despacho Rápido","Ferreteria General"]
+  },
+  {
+    "id": 3,
+    "nombre": "Maestro Constructor - Antofagasta",
+    "direccion": "Av. Balmaceda 4500, Antofagasta",
+    "telefono": "+56 55 245 3000",
+    "horario": "Lunes a Sábado: 9:00 - 18:00",
+    "latitud": -23.6500,
+    "longitud": -70.4000,
+    "servicios": ["Cortes de Materiales", "Grandes Proyectos","Ferreteria General"]
+  },
+  {
+    "id": 4,
+    "nombre": "Ferretería del Desierto - Copiapó",
+    "direccion": "Alameda Manuel Antonio Matta 500, Copiapó",
+    "telefono": "+56 52 245 4000",
+    "horario": "Lunes a Viernes: 9:30 - 18:30",
+    "latitud": -27.3667,
+    "longitud": -70.3333,
+    "servicios": ["Herramientas Eléctricas", "Jardinería","Ferreteria General"]
+  },
+  {
+    "id": 5,
+    "nombre": "La Llave Maestra - La Serena",
+    "direccion": "Av. Francisco de Aguirre 100, La Serena",
+    "telefono": "+56 51 245 5000",
+    "horario": "Lunes a Sábado: 8:00 - 17:30",
+    "latitud": -29.9000,
+    "longitud": -71.2500,
+    "servicios": ["Pintura y Colores", "Ventas al Por Mayor","Ferreteria General"]
+  },
+  {
+    "id": 6,
+    "nombre": "El Cemento Amigo - Valparaíso",
+    "direccion": "Calle Condell 1200, Valparaíso",
+    "telefono": "+56 32 245 6000",
+    "horario": "Lunes a Viernes: 9:00 - 20:00",
+    "latitud": -33.0458,
+    "longitud": -71.6197,
+    "servicios": ["Servicio Marítimo", "Materiales de Construcción","Ferreteria General"]
+  },
+  {
+    "id": 7,
+    "nombre": "Ferretería Central - Santiago",
+    "direccion": "Av. Siemprevia 742, Santiago",
+    "telefono": "+56 2 245 7000",
+    "horario": "Lunes a Viernes: 9:00 - 19:00",
+    "latitud": -33.4500,
+    "longitud": -70.6667,
+    "servicios": ["Cortes de Materiales", "Pintura","Ferreteria General"]
+  },
+  {
+    "id": 8,
+    "nombre": "El Tornillo Feliz - Rancagua",
+    "direccion": "Av. Libertador B. O'Higgins 300, Rancagua",
+    "telefono": "+56 72 245 8000",
+    "horario": "Lunes a Sábado: 8:30 - 18:30",
+    "latitud": -34.1700,
+    "longitud": -70.7400,
+    "servicios": ["Alquiler de Herramientas", "Despacho Rápido","Ferreteria General"]
+  },
+  {
+    "id": 9,
+    "nombre": "Maestro Constructor - Talca",
+    "direccion": "Av. San Miguel 2100, Talca",
+    "telefono": "+56 71 245 9000",
+    "horario": "Lunes a Sábado: 9:00 - 18:00",
+    "latitud": -35.4333,
+    "longitud": -71.6667,
+    "servicios": ["Grandes Proyectos", "Materiales Pesados","Ferreteria General"]
+  },
+  {
+    "id": 10,
+    "nombre": "La Llave Maestra - Chillán",
+    "direccion": "Av. O'Higgins 600, Chillán",
+    "telefono": "+56 42 245 1010",
+    "horario": "Lunes a Viernes: 9:30 - 18:30",
+    "latitud": -36.6067,
+    "longitud": -72.1000,
+    "servicios": ["Jardinería", "Pintura y Colores","Ferreteria General"]
+  },
+  {
+    "id": 11,
+    "nombre": "El Cemento Amigo - Concepción",
+    "direccion": "Av. Los Carrera 1500, Concepción",
+    "telefono": "+56 41 245 1111",
+    "horario": "Lunes a Viernes: 8:00 - 19:00",
+    "latitud": -36.8267,
+    "longitud": -73.0500,
+    "servicios": ["Materiales de Construcción", "Servicio a Domicilio","Ferreteria General"]
+  },
+  {
+    "id": 12,
+    "nombre": "Ferretería del Sur - Temuco",
+    "direccion": "Av. Alemania 500, Temuco",
+    "telefono": "+56 45 245 1212",
+    "horario": "Lunes a Sábado: 9:00 - 18:00",
+    "latitud": -38.7333,
+    "longitud": -72.6000,
+    "servicios": ["Leñas y Combustibles", "Gasfitería","Ferreteria General"]
+  },
+  {
+    "id": 13,
+    "nombre": "El Tornillo Feliz - Valdivia",
+    "direccion": "Av. Picarte 200, Valdivia",
+    "telefono": "+56 63 245 1313",
+    "horario": "Lunes a Viernes: 9:30 - 17:30",
+    "latitud": -39.8167,
+    "longitud": -73.2333,
+    "servicios": ["Electricidad", "Herramientas Eléctricas","Ferreteria General"]
+  },
+  {
+    "id": 14,
+    "nombre": "Maestro Constructor - Puerto Montt",
+    "direccion": "Av. Presidente Ibáñez 1000, Puerto Montt",
+    "telefono": "+56 65 245 1414",
+    "horario": "Lunes a Sábado: 8:30 - 19:00",
+    "latitud": -41.4700,
+    "longitud": -72.9400,
+    "servicios": ["Maderas y Planchas", "Alquiler de Maquinaria","Ferreteria General"]
+  },
+  {
+    "id": 15,
+    "nombre": "Ferretería Austral - Coyhaique",
+    "direccion": "Av. O'Higgins 350, Coyhaique",
+    "telefono": "+56 67 245 1515",
+    "horario": "Lunes a Viernes: 9:00 - 18:00",
+    "latitud": -45.5714,
+    "longitud": -72.0667,
+    "servicios": ["Materiales Aislantes", "Calefacción","Ferreteria General"]
+  },
+  {
+    "id": 16,
+    "nombre": "El Cemento Amigo - Punta Arenas",
+    "direccion": "Av. Colón 800, Punta Arenas",
+    "telefono": "+56 61 245 1616",
+    "horario": "Lunes a Sábado: 9:30 - 17:00",
+    "latitud": -53.1667,
+    "longitud": -70.9333,
+    "servicios": ["Herramientas de Invierno", "Ventas al Por Mayor","Ferreteria General"]
+  }
+]

@@ -2,14 +2,12 @@ body {
   margin: 0;
   padding: 0;
   min-height: 100vh;
-
 }
 
 .carousel-container {
   width: 100vw;
   height: 100vh;
   position: relative;
- 
 }
 
 .slides-container {
@@ -47,10 +45,6 @@ body {
 .slide-2 { background-image: url("/promociones/banner2.png"); }
 .slide-3 { background-image: url("/promociones/banner3.png"); }
 
-
-
-
-
 .container-bloque{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -72,14 +66,9 @@ body {
     border-radius: 50%;
 }
 
-
-
 .container-bloque p{
     text-align: center;
 }
-
-
-
 
 .container-venta1{
   display: grid;
@@ -98,17 +87,12 @@ body {
 .venta1 img{
     width: 500px;
     height: 500px;
-    object-fit: cover;
-    
+    object-fit: cover;   
 }
-
-
 
 .container-venta1 p{
     text-align: center;
 }
-
-
 
 .container-venta2{
   display: grid;
@@ -151,11 +135,188 @@ body {
 .venta3 img{
     width: 500px;
     height: 500px;
-    object-fit: cover;
-    
+    object-fit: cover; 
 }
 
 .container-venta3 p{
     text-align: center;
 }
 
+
+
+/* ==================================================
+   ≤ 1690px — Desktop grande
+================================================== */
+@media (max-width: 1690px) {
+  .container-bloque,
+  .container-venta1,
+  .container-venta2,
+  .container-venta3 {
+    max-width: 1100px;
+  }
+  .venta1 img,
+  .venta2 img,
+  .venta3 img {
+    max-width: 480px;
+  }
+
+  .container-venta1{
+    margin-top: -320px;
+  }
+}
+
+/* ==================================================
+   ≤ 1645px — Desktop estándar
+================================================== */
+@media (max-width: 1645px) {
+
+  .container-bloque {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+  }
+
+  .container-venta1 {
+    margin-top: -450px; /* menos agresivo */
+  }
+}
+
+/* ==================================================
+   ≤ 1200px — Laptop
+================================================== */
+@media (max-width: 1200px) {
+
+  .container-bloque {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .container-venta1,
+  .container-venta2,
+  .container-venta3 {
+    grid-template-columns: 1fr;
+    text-align: center;
+    margin-top: 0;
+  }
+
+  .venta1 img,
+  .venta2 img,
+  .venta3 img {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  .container-venta1 {
+  margin-top: -180px; /* menos agresivo */
+  max-width: 600px;
+  }
+  .carousel-container {
+    height: 55vh;
+  }
+
+  .container-venta3{
+    max-width: 600px;
+
+  }
+
+ /* ---------------- INVERSIÓN VENTA 2 ---------------- */
+  .container-venta2 {
+    display: grid; /* aseguramos grid */
+    justify-items: center;
+  }
+
+  .container-venta2 .venta2 {
+    order: 1; /* IMAGEN PRIMERO */
+  }
+
+  .container-venta2 > div:first-child {
+    order: 2; /* TEXTO DESPUÉS */
+    max-width: 600px; /* mismo ancho que imagen */
+  }
+
+ .container-bloque {
+  display: grid;
+  grid-template-columns: 1fr;
+  max-width: 600px;
+  margin: 0 auto;      /* CENTRADO REAL */
+  justify-items: center;
+}
+
+ .bloque {
+  text-align: center;
+}
+
+
+}
+
+
+/* ==================================================
+   ≤ 1024px — Tablet horizontal
+================================================== */
+@media (max-width: 1024px) {
+
+  .container-venta1 {
+  margin-top: -160px; /* menos agresivo */
+  }
+
+  .carousel-container {
+    height: 50vh;
+  }
+
+  .carousel-control {
+    font-size: 18px;
+    padding: 10px 12px;
+  }
+
+  .container-venta1,
+  .container-venta2,
+  .container-venta3 {
+    display: grid; /* aseguramos grid */
+    justify-items: center;
+    grid-template-columns: 1fr;
+    text-align: center;
+    margin-top: 0;
+     max-width: 600px;
+  }
+
+    .container-venta1{
+      margin-top: -150px;
+    }  
+}
+
+/* ==================================================
+   ≤ 768px — Tablet / Móvil grande
+================================================== */
+@media (max-width: 768px) {
+ .container-venta1{
+  position: relative;
+  margin-top: 1000px;
+ }
+
+  .container-bloque {
+    grid-template-columns: 1fr;
+    justify-content: center;
+  
+  }
+
+  .bloque img {
+    width: 180px;
+    height: 180px;
+  }
+
+  .venta1 img,
+  .venta2 img,
+  .venta3 img {
+    max-width: 100%;
+  }
+
+
+
+  
+  .carousel-container {
+    height: 40vh;
+
+  }
+
+  .carousel-control {
+    font-size: 16px;
+    padding: 8px 10px;
+  }
+}
