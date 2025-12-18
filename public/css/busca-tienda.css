@@ -3,6 +3,30 @@
    =============================== */
 
 /* Si esto no se aplica, el CSS NO está cargando */
+/* 1. El contenedor padre */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    background-color: #ffffff; /* Pon el color de fondo de tu web */
+    border-bottom: 1px solid #ddd; /* Para ver dónde termina el header */
+}
+
+/* 2. El div donde insertas el JS */
+#nav {
+    display: block;
+    width: 100%;
+    min-height: 50px; /* Asegura que siempre tenga un tamaño mínimo */
+}
+
+/* 3. El cuerpo de la página */
+main#vista {
+    position: relative;
+    z-index: 1; /* Mucho menor que el del header */
+    margin-top: 20px; /* Espacio extra */
+}
 
 h1{
     color:#1A4C6E;
@@ -62,5 +86,5 @@ h1{
 .tienda-card button:hover{
     background-color: #F6F7F7;
     color: #1A4C6E; 
-    border-radius: 2px solid #1A4C6E;
+    border: 2px solid #1A4C6E;
 }

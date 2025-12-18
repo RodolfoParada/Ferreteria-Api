@@ -1,4 +1,30 @@
 /* Estilo del contenedor principal para que las cards se muestren en filas */
+/* 1. El contenedor padre */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    background-color: #ffffff; /* Pon el color de fondo de tu web */
+    border-bottom: 1px solid #ddd; /* Para ver dónde termina el header */
+}
+
+/* 2. El div donde insertas el JS */
+#nav {
+    display: block;
+    width: 100%;
+    min-height: 50px; /* Asegura que siempre tenga un tamaño mínimo */
+}
+
+/* 3. El cuerpo de la página */
+main#vista {
+    position: relative;
+    z-index: 1; /* Mucho menor que el del header */
+    margin-top: 20px; /* Espacio extra */
+}
+
+
 #lista-productos {
      display: grid;
      grid-template-columns: 1fr 1fr 1fr;
