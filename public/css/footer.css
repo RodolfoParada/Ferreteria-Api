@@ -1,18 +1,19 @@
 
 
 
-footer{
-    position: fixed;
 
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: 1000;
-    text-align: center;
-    padding: 20px;
-    background: hsl(0, 0%, 93%);
+footer{
+  text-align: center;
+
+    padding: 10px;
     color: #1A4C6E; 
+
+    /* Asegura que el footer ocupe el 100% del ancho del viewport, si es necesario */
+    width: 100%; 
+    background: hsl(0, 0%, 93%);
+    box-sizing: border-box; /* Asegura que el padding no añada ancho extra */
 } 
+
 
 
 .contenedor{
@@ -129,7 +130,7 @@ footer{
     .imagen {
         margin-bottom: 20px;
     }
-z
+
     .imagen .img-footer {
         width: 150px; /* Tamaño fijo para que no sea demasiado grande */
         height: auto;

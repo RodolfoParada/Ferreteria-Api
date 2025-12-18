@@ -2,20 +2,35 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box; /* Evita problemas de tamaños */
+  overflow-y: scroll; /* Asegura el scroll vertical (o auto si prefieres) */
+    
+    /* Ocultar la barra en navegadores compatibles (Firefox) */
+    scrollbar-width: none;
+    
+    /* Ocultar la barra en navegadores basados en WebKit (Chrome, Safari, Edge) */
+    /* Este es un pseudo-elemento NO estándar, pero muy usado */
+    &::-webkit-scrollbar {
+        width: 0px; /* Ancho para scrollbars verticales */
+        height: 0px; /* Altura para scrollbars horizontales */
+    }
+
 }
 
 /* 2. Asegura que HTML ocupe todo el alto */
 html, body {
   top:100px;
   height: 100%;
+  
 }
 
 /* 3. Fuente y suavizado */
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+  
 }
 
 main {
-  margin-top: 80px;
+  margin-top: 35px;
 }
+

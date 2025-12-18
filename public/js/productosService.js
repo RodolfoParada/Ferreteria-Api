@@ -19,19 +19,28 @@ async function cargarProductos() {
         });
 
         // Mostrar productos
-        contenedor.innerHTML = productos.map(prod => `
-            <div>
-                <h3>${prod.nombre}</h3>
-                <p>Descripción: ${prod.descripcion}</p>
-                <p>Código: ${prod.codigo}</p>
-                <p>Precio: $${prod.precio}</p>
-                <p>Existencias: ${prod.existencias}</p>
-                <img src="http://localhost:3000/imagenes/${prod.imagen}" alt="${prod.nombre}" width="200">
-                <p>Categoria: ${prod.categoria}</p>
-                <p>Subgrupo: ${prod.subgrupo}</p>
+     contenedor.innerHTML = productos.map(prod => `
+            <div class="producto-card">
+                <img src="http://localhost:3000/imagenes/${prod.imagen}" 
+                     alt="${prod.nombre}" 
+                     class="card-imagen">
+                
+                <div class="card-cuerpo">
+                    <h3 class="card-titulo">${prod.nombre}</h3>
+                    <p class="card-precio">$${prod.precio}</p>
+                    <p class="card-descripcion">${prod.descripcion}</p>
+                    
+                    <div class="card-detalles">
+                        <p>Código: ${prod.codigo}</p>
+                        <p>Existencias: ${prod.stock}</p>
+                        <p>Categoría: ${prod.categoria}</p>
+                    </div>
+                    <div class="card-boton"> 
+                    <button class="boton">Comprar</button>
+                    </div>
+                </div>
             </div>
-            <hr>
-        `).join('');
+        `).join(''); // Quitamos el <hr> que ya no es necesario
 
     } catch (error) {
         console.error("Error cargando productos:", error);
