@@ -10,7 +10,7 @@ footer{
 
     /* Asegura que el footer ocupe el 100% del ancho del viewport, si es necesario */
     width: 100%; 
-    background: hsl(0, 0%, 93%);
+    background-color: hsl(0, 0%, 93%);
     box-sizing: border-box; /* Asegura que el padding no añada ancho extra */
 } 
 
@@ -166,3 +166,5 @@ footer{
         margin-top: 20px;
     }
 }
+
+
