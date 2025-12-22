@@ -17,6 +17,19 @@ async function cargarProductos() {
                 productos = productos.concat(subgrupo);
             });
         });
+         
+           // ==========================
+        // 🔹 FILTRO POR CATEGORÍA
+        // (CAMBIO MÍNIMO)
+        // ==========================
+       if (window.categoriaSeleccionada !== "todos") {
+    productos = productos.filter(prod =>
+        prod.categoria.toLowerCase() ===
+        window.categoriaSeleccionada.toLowerCase()
+    );
+}
+
+
 
         // Mostrar productos
      contenedor.innerHTML = productos.map(prod => `
