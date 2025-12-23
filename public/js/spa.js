@@ -42,12 +42,26 @@ if (vista === "busca-tienda") {
             initializeCarousel();
         }
 
-        if (vista === "productos") {
-            const script = document.createElement("script");
-            script.src = "/js/productosService.js";
-            script.defer = true;
-            document.body.appendChild(script);
-        }
+      if (vista === "productos") {
+
+
+    // 🔹 resetear filtro SIEMPRE
+    window.categoriaSeleccionada = "todos";
+
+    // 🔹 PRODUCTOS (NO TOCAR)
+    const script = document.createElement("script");
+    script.src = "/js/productosService.js";
+    script.defer = true;
+    document.body.appendChild(script);
+
+    // 🔹 SUBMENU (SOLO VISUAL)
+    if (typeof cargarSubmenu === "function") {
+        setTimeout(() => {
+            cargarSubmenu();
+        }, 0);
+    }
+}
+
 
         // --- Actualizar URL ---
         let url = "/" + vista;

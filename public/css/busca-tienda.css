@@ -1,6 +1,5 @@
 /* ===============================
    PRUEBA DE CARGA CSS
-   =============================== */
 
 /* Si esto no se aplica, el CSS NO está cargando */
 /* 1. El contenedor padre */
@@ -21,11 +20,14 @@ header {
     min-height: 50px; /* Asegura que siempre tenga un tamaño mínimo */
 }
 
+
+
 /* 3. El cuerpo de la página */
 main#vista {
     position: relative;
     z-index: 1; /* Mucho menor que el del header */
     margin-top: 20px; /* Espacio extra */
+     margin-bottom: 140px;
 }
 
 h1{
@@ -88,3 +90,25 @@ h1{
     color: #1A4C6E; 
     border: 2px solid #1A4C6E;
 }
+
+
+/* ===============================
+   FILTRO DE TIENDAS
+   =============================== */
+
+#filtro-tiendas {
+  padding: 0 20px 20px 20px;
+
+}
+
+#filtro-tiendas select {
+  width: 100%;
+  max-width: 450px;
+  padding: 12px;
+  font-size: 20px;
+  border-radius: 10px;
+  border: 2px solid #1A4C6E;
+  color: #1A4C6E;
+}
+
+

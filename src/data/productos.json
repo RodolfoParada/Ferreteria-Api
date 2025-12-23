@@ -220,7 +220,7 @@
 
 
   "alcayatas": {
-  "ALCAYATA_RUSTICA": [
+  "ALCAYATAS": [
     {
       "id": 1,
       "nombre": "Alcayata",
@@ -489,7 +489,7 @@
       "precio": 2000,
       "stock": 1000,
       "imagen": "29.Limpia_contacto.webp",
-      "categoria": "Limpiador Electricos"
+      "categoria": "Limpiador Electrico"
       
     }
   ]
@@ -731,7 +731,7 @@
   {
       "id": 1,
       "nombre": "Chapa con llaves",
-      "descripcion": "Chapa dormitorio",
+      "descripcion": "Chapa Dormitorio",
       "codigo":"CPD3",
       "precio": 8425,
       "stock": 801,
@@ -741,7 +741,7 @@
      {
       "id": 2,
       "nombre": "Chapa con manilla",
-      "descripcion": "Chapa dormitorio",
+      "descripcion": "Chapa Dormitorio",
       "codigo":"CPD4",
       "precio": 9500,
       "stock":  600,
@@ -763,8 +763,8 @@
 
 
 
-"chapa porton":{
- "CHAPA_PORTON":[
+"chapas porton":{
+ "CHAPAS_PORTON":[
      {
       "id": 1,
       "nombre": "Cerradura reja 1",
@@ -798,8 +798,8 @@
   ]
 },
 
-"chapa baño":{
-  "CHAPA BAÑO":[
+"chapas baño":{
+  "CHAPAS BAÑO":[
      {
       "id": 1,
       "nombre": "Cerradura baño 1",
@@ -836,7 +836,7 @@
 
 
   "chapas principal": {
-    "CHAPA PRINCIPAL":[
+    "CHAPAS PRINCIPAL":[
      {
       "id": 1,
       "nombre": "Cerradura principal 1",
@@ -870,8 +870,8 @@
   ]
 },
 
-"chapa interior":{
-  "CHAPA INTERIOR":[
+"chapas interior":{
+  "CHAPAS INTERIOR":[
   {
       
       "id": 1,
@@ -906,8 +906,8 @@
   ]
 },
 
-"chapa_muebles":{
-  "CHAPA MUEBLES":[
+"chapas muebles":{
+  "CHAPAS MUEBLES":[
      {
       "id": 1,
       "nombre": "Cerradura mueble 1",
@@ -916,7 +916,7 @@
       "precio": 5990,
       "stock": 400,
       "imagen": "71.Chapa_mueble_1.webp",
-       "categoria": "Chapas Muebles"
+       "categoria": "Chapa Mueble"
     },
     {
       "id": 2,
@@ -926,7 +926,7 @@
       "precio": 5990,
       "stock": 450,
       "imagen": "72.Chapa_mueble_2.webp",
-      "categoria": "Chapas Muebles"
+      "categoria": "Chapa Mueble"
     },
      {
       "id": 3,
@@ -936,7 +936,7 @@
       "precio": 5990,
       "stock": 550,
       "imagen": "73.Chapa_mueble_3.webp",
-      "categoria": "Chapas Muebles"
+      "categoria": "Chapa Mueble"
     }
   ] 
 },

@@ -1,3 +1,13 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    background-color: #ffffff; /* Pon el color de fondo de tu web */
+    border-bottom: none; /* Para ver dónde termina el header */
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -91,7 +101,7 @@ body {
 }
 
 .container-venta1 p{
-    text-align: center;
+    text-align: start;
 }
 
 .container-venta2{
@@ -115,7 +125,7 @@ body {
 }
 
 .container-venta2 p{
-    text-align: center;
+    text-align: start;
 }
 
 .container-venta3{
@@ -139,7 +149,7 @@ body {
 }
 
 .container-venta3 p{
-    text-align: center;
+    text-align: start;
 }
 
 

@@ -1,0 +1,38 @@
+#contenedor-submenu {
+  width: 100%;
+  background: #fff;
+  padding: 15px 0;
+  position: sticky;
+  top: 50px; /* altura real del nav */
+  margin-bottom: 50px;
+  z-index: 5000;
+}
+
+
+.submenu-categorias {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.btn-filtro {
+    background-color: #f4f4f4;
+    border: 2px solid #ddd;
+    padding: 8px 18px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-filtro.active {
+    background-color: #B95A37; /* Color principal [cite: 152] */
+    color: white;
+    border-color: #B95A37;
+}
+
+header {
+  position: fixed;
+  z-index: 9999;
+}
