@@ -21,4 +21,3 @@ http://localhost:3000/productos
 http://localhost:3000/busca-tienda
 ```
 
-t 
