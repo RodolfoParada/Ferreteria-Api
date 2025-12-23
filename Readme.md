@@ -1,14 +1,16 @@
-Instalaciones
-
--npm i nodemon
--npm init 
--npm init  -y
--npm i express
--npm i start
--npm i --save-dev nodemon
-
-- npm run serve
-
-para ejecutar un archivo .js debes usar node + nombre de archivo
-
-http://localhost:3000/productos
+### Requiere instalar
+´´´npm install
+´´´
+### Para levantar el proyecto 
+´´´
+node index.js
+´´´
+### endopoints
+´´´http://localhost:3000
+´´´
+´´http://localhost:3000/sobre-nosotros
+´´´
+´´http://localhost:3000/productos
+´´´
+´´http://localhost:3000/busca-tienda
+´´´
