@@ -1,3 +1,23 @@
+
+/* Opción A: Aplicación global */
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+/* Opción B: Títulos con peso fuerte (Bold) */
+h1, h2, h3 {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 800;
+  letter-spacing: -0.02em; /* Un pequeño ajuste que la hace ver muy moderna */
+}
+
+/* Opción C: Cuerpo de texto ligero */
+p {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
 * {
   margin: 0;
   padding: 0;

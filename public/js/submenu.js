@@ -31,4 +31,12 @@ function inicializarSubmenu() {
             cargarProductos();
         }
     });
+
+    // 🔹 marcar "Todos" como activo por defecto
+const btnTodos = document.querySelector('.btn-filtro[data-categoria="todos"]');
+if (btnTodos) {
+    document.querySelectorAll(".btn-filtro")
+        .forEach(b => b.classList.remove("active"));
+    btnTodos.classList.add("active");
+}
 }

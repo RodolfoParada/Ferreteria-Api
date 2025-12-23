@@ -44,6 +44,10 @@ if (vista === "busca-tienda") {
 
       if (vista === "productos") {
 
+
+    // 🔹 resetear filtro SIEMPRE
+    window.categoriaSeleccionada = "todos";
+
     // 🔹 PRODUCTOS (NO TOCAR)
     const script = document.createElement("script");
     script.src = "/js/productosService.js";
